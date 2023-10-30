@@ -1,4 +1,32 @@
-*
-{
-    margin:0px;
+* {
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Rowdies", sans-serif;
+  font-size: 2rem;
+}
+
+button {
+  font-family: "Aoboshi One", serif;
+  color: white;
+  background-color: #6db3e6;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 10px;
+  border: solid;
+  border-radius: 30px;
+  width: 140px;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  button {
+    font-size: 0.6rem;
+
+    width: 110px;
+  }
 }
