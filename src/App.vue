@@ -1,11 +1,13 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
+import HelloWorld from './components/header.vue';
 </script>
 
 <template>
-  <h1>Ashley Gómez</h1>
-  <p>Projects</p>
-  <p>About</p>
+  <div class="Header">
+    <h1>Ashley Gómez</h1>
+    <p>Projects</p>
+    <p>About</p>
+  </div>
 </template>
 
 <style scoped>
@@ -14,5 +16,9 @@ h1{
 }
 p {
   font-family: 'Aoboshi One', serif;
+}
+.header
+{
+
 }
 </style>
