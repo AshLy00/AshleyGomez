@@ -15,7 +15,7 @@
 <style scoped>
 header {
   width: 100%;
-  background-color: #6db3e6;
+  background-color: var(--color-blue);
   color: white;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@ header {
 
 @media screen and (max-width: 900px) {
   header {
-    color: white;
+    color: var(--color-white);
     height: 140px;
   }
 
