@@ -6,20 +6,19 @@
       <h1>ACA VA EL HERO XD</h1>
       <p>Aca va mas texto que no tengo :c</p>
     </div>
-
-    <img src="/Yop.png" />
+    <div> <img src="https://drive.google.com/file/d/1L11xH05iafayjCrJWMO7cACjqjuRhReN/view?usp=sharing" /></div>
   </div>
 </template>
 
 <style scoped>
 .hero_container {
-  background-color: red;
+  background-color: grey;
   height: 600px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 img {
-  width: 660px;
   height: 600px;
 }
 @media screen and (max-width: 900px) {
@@ -27,8 +26,6 @@ img {
     height: 200px;
   }
   img {
-    width: 260px;
-    height: 200px;
   }
 }
 </style>
