@@ -19,21 +19,22 @@
   align-items: center;
 }
 .hero_img_container {
-  width: 630px;
   height: 560px;
-  align-self: flex-end;
   display: flex;
+  position: absolute;
+  top: 150px;
+  right: 260px;
 }
 
 .hero_img_container img{
-  width: 100%;
-  height: 100%;
-  z-index: 5;
+height: 100%;
 }
 
 .hero_text_container{
   width:760px;
   display: flex;
+  position: absolute;
+  left: 320px;
   flex-direction: column;
   gap: 30px;
 }
@@ -47,42 +48,83 @@ font-size: 1.5rem;
 width: 70%;
 }
 
-@media screen and (max-width: 1650px) {
-  .hero_img_container {
-  width: 600px;
-  height: 530px;
+@media screen and (max-width: 1780px) {
+  .hero_text_container{
+  left: 200px;
 }
-.hero_text_container{
-  width:650px;
+.hero_img_container {
+  right: 220px;
+}
+}
+
+@media screen and (max-width: 1600px) {
+  .hero_text_container{
+  left: 160px;
+}
+.hero_img_container {
+  right: 200px;
+}
+}
+
+@media screen and (max-width: 1580px) {
+  .hero_text_container{
+  left: 120px;
+}
+.hero_img_container {
+  right: 150px;
+}
+}
+
+@media screen and (max-width: 1475px) {
+  .hero_text_container{
+  left: 100px;
+}
+.hero_img_container {
+  right: 120px;
+}
+}
+
+@media screen and (max-width: 1410px) {
+  .hero_text_container{
+  left: 80px;
+}
+.hero_img_container {
+  right: 100px;
+}
+
+}
+
+@media screen and (max-width: 1380px) {
+  .hero_container {
+  height: 500px;
+}
+  .hero_text_container{
+  left: 140px;
+}
+
+.hero_img_container {
+  top: 135px;
+  right: 100px;
+}
+.hero_img_container img{
+height: 85%;
 }
 .hero_text_container h1{
 font-size: 3rem;
 }
 
 .hero_text_container p{
-font-size: 1.2rem;
-width: 90%;
+font-size: 1rem;
+width: 70%;
 }
 }
 
-@media screen and (max-width: 1350px) {
-  .hero_container {
-  height: 500px;
+@media screen and (max-width: 1300px) {
+  .hero_text_container{
+  left: 120px;
 }
-  .hero_img_container {
-  width: 550px;
-  height: 480px;
-}
-.hero_text_container{
-  width:600px;
-}
-.hero_text_container h1{
-font-size: 2.5rem;
-}
-
-.hero_text_container p{
-font-size: 1.1rem;
-width: 90%;
+.hero_img_container {
+  right: 100px;
 }
 }
 </style>
