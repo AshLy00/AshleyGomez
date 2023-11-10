@@ -23,6 +23,7 @@
 }
 .intro_text_container{
   position: absolute;
+
   color:var(--color-white);
   width: 100%;
   text-align: center;

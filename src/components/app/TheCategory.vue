@@ -14,20 +14,22 @@
 <style scoped>
 .img_container{
     width: 320px;
-    border-radius: 20px;
+    border-radius: 30px;
     overflow: hidden;
 }
 .img_container img{
-    width:100%
+    width:100%;
 }
 .text_container{
     position: absolute;
-    top:45%;
+    top:43%;
     left:25%;
+    color: var(--color-white);
 }
 .all_container{
     position: relative;
     display: flex   ;
     justify-content: center;
+    align-items: center;
 }
 </style>
