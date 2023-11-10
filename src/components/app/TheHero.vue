@@ -55,6 +55,7 @@ width: 70%;
 .hero_img_container {
   right: 220px;
 }
+
 }
 
 @media screen and (max-width: 1600px) {
@@ -96,18 +97,18 @@ width: 70%;
 
 @media screen and (max-width: 1380px) {
   .hero_container {
-  height: 500px;
+  height: 460px;
 }
   .hero_text_container{
   left: 140px;
 }
 
 .hero_img_container {
-  top: 135px;
+  top: 122px;
   right: 100px;
 }
 .hero_img_container img{
-height: 85%;
+height: 80%;
 }
 .hero_text_container h1{
 font-size: 3rem;
@@ -126,5 +127,127 @@ width: 70%;
 .hero_img_container {
   right: 100px;
 }
+}
+
+@media screen and (max-width: 1270px) {
+  .hero_text_container{
+  left: 80px;
+}
+.hero_img_container {
+  right: 60px;
+}
+}
+
+@media screen and (max-width: 1160px) {
+  .hero_text_container{
+  left: 50px;
+}
+.hero_img_container {
+  right: 40px;
+}
+}
+
+@media screen and (max-width: 1100px) {
+  .hero_container {
+  height: 400px;
+}
+  .hero_text_container{
+  left: 70px;
+  gap:10px;
+}
+
+.hero_img_container {
+  top: 130px;
+  right: 80px;
+}
+.hero_img_container img{
+height: 68%;
+}
+.hero_text_container h1{
+font-size: 2.5rem;
+width: 75%;
+}
+
+.hero_text_container p{
+font-size: 0.9rem;
+width: 50%;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .hero_text_container{
+  left: 50px;
+}
+.hero_img_container {
+  right: 15px;
+}
+}
+
+@media screen and (max-width: 900px) {
+  .hero_container {
+    height: 505px;
+    flex-direction: column;
+    gap: 20px;
+}
+  .hero_text_container{
+    position:inherit;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+}
+.hero_img_container {
+  position: inherit;
+  height: 50%;
+}
+
+.hero_img_container img{
+  width: 100%;
+  height: 100%;
+}
+
+.hero_text_container h1{
+  font-size: 2.5rem;
+  width: 80%;
+}
+
+.hero_text_container p{
+font-size: 0.9rem;
+width: 70%;
+}
+}
+
+@media screen and (max-width: 900px) {
+  .hero_container {
+    height: 690px;
+}
+
+.hero_img_container {
+  position: inherit;
+  height: 30%;
+}
+}
+
+@media screen and (max-width: 460px) {
+  .hero_container {
+    height: 470px;
+}
+
+.hero_text_container h1{
+  font-size: 1.7rem;
+  width: 90%;
+  align-items: center;
+}
+
+.hero_text_container p{
+font-size: 0.8rem;
+width: 80%;
+}
+
+.hero_img_container {
+  position: inherit;
+  height: 30%;
+}
+
 }
 </style>
