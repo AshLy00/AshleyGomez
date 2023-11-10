@@ -3,7 +3,7 @@
 <template>
     <div class="all_container">
         <div class="img_container">
-            <img src="https://drive.google.com/uc?export=view&id=1QSSDKznHfjA3SSck9Y62Kn_YJ5uOqZNL" alt="">
+            <img src="https://drive.google.com/uc?export=view&id=1fjxgouc9AvmVe39al4zaZGgPac7QXL2L" alt="">
         </div>
         <div class="text_container">
             <h1>NOMBRE</h1>
@@ -16,14 +16,17 @@
     justify-content: center;
     align-items: center;
 }
+
 .img_container {
     width: 320px;
     border-radius: 30px;
     overflow: hidden;
+    height: 320px;
 }
 
 .img_container img {
     width: 100%;
+    height: 100%;
 }
 
 .text_container {
@@ -37,5 +40,43 @@
     text-shadow: var(--color-black) 1px 0 3px;
 }
 
+@media screen and (max-width: 1580px) {
+    .img_container {
+        width: 280px;
+    }
+}
 
+@media screen and (max-width: 1400px) {
+    .img_container {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .img_container {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .img_container {
+        width: 580px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .img_container {
+        width: 580px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .text_container h1 {
+        font-size: 0.8rem;
+    }
+}
 </style>

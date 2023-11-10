@@ -3,6 +3,7 @@ import TheHeader from "./components/app/TheHeader.vue";
 import TheHero from "./components/app/TheHero.vue";
 import TheIntro from "./components/app/TheIntro.vue";
 import TheCategory from "./components/app/TheCategory.vue";
+import TheBanner from "./components/app/TheBanner.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import TheCategory from "./components/app/TheCategory.vue";
       <TheCategory />
       <TheCategory />
     </div>
+    <TheBanner />
   </main>
   <footer></footer>
 </template>
@@ -29,12 +31,12 @@ import TheCategory from "./components/app/TheCategory.vue";
   margin: 50px 0px;
 }
 
-@media screen and (max-width: 1580px) {
+@media screen and (max-width: 1000px) {
   .categories {
     display: grid;
     grid-template-columns: 300px 300px;
-    gap: 50px;
-     justify-content: center;
+    gap: 30px;
+    justify-content: center;
   }
 }
 </style>
