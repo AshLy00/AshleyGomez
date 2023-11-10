@@ -3,7 +3,7 @@
 <template>
     <div class="all_container">
         <div class="img_container">
-            <img src="https://drive.google.com/uc?export=view&id=1fjxgouc9AvmVe39al4zaZGgPac7QXL2L" alt="">
+            <img src="https://drive.google.com/uc?export=view&id=1Qlyq0mFIL3XzSjw73HmFEgAH87NKuUms" alt="">
         </div>
         <div class="text_container">
             <h1>NOMBRE</h1>
@@ -21,18 +21,15 @@
     width: 320px;
     border-radius: 30px;
     overflow: hidden;
-    height: 320px;
 }
 
 .img_container img {
     width: 100%;
-    height: 100%;
 }
 
 .text_container {
     position: absolute;
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
