@@ -2,7 +2,7 @@
 
 <template>
   <div class="intro_container">
-    <img src="/bedroom.jpg" alt="">
+    <img src="https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU" alt="">
     <div class="intro_text_container">
       <h1>PORTAFOLIO</h1>
     </div>
@@ -31,6 +31,8 @@
 
 .intro_text_container h1 {
 font-size:1000%;
+text-shadow: var(--color-black) 1px 0 10px;
+
 }
 
 @media screen and (max-width: 1580px) {

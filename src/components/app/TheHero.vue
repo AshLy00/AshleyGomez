@@ -4,250 +4,47 @@
   <div class="hero_container">
     <div class="hero_text_container">
       <h1>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT</h1>
-      <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING</p>
+      <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT
+        LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING</p>
     </div>
-    <div class="hero_img_container"> <img src="/ash.png" /></div>
+    <div class="hero_img_container">
+      <img src="https://drive.google.com/uc?export=view&id=1UnBSbdjNL3H9ZFDY8AA5gybePzQm5RA9" alt="">
+    </div>
   </div>
 </template>
 
 <style scoped>
 .hero_container {
-  background-color: transparent;
   height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.hero_img_container {
-  height: 560px;
-  display: flex;
-  position: absolute;
-  top: 150px;
-  right: 260px;
-}
-
-.hero_img_container img{
-height: 100%;
-}
-
-.hero_text_container{
-  width:760px;
-  display: flex;
-  position: absolute;
-  left: 320px;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.hero_text_container h1{
-font-size: 3.5rem;
-}
-
-.hero_text_container p{
-font-size: 1.5rem;
-width: 70%;
-}
-
-@media screen and (max-width: 1780px) {
-  .hero_text_container{
-  left: 200px;
-}
-.hero_img_container {
-  right: 220px;
-}
-
-}
-
-@media screen and (max-width: 1600px) {
-  .hero_text_container{
-  left: 160px;
-}
-.hero_img_container {
-  right: 200px;
-}
-}
-
-@media screen and (max-width: 1580px) {
-  .hero_text_container{
-  left: 120px;
-}
-.hero_img_container {
-  right: 150px;
-}
-}
-
-@media screen and (max-width: 1475px) {
-  .hero_text_container{
-  left: 100px;
-}
-.hero_img_container {
-  right: 120px;
-}
-}
-
-@media screen and (max-width: 1410px) {
-  .hero_text_container{
-  left: 80px;
-}
-.hero_img_container {
-  right: 100px;
-}
-
-}
-
-@media screen and (max-width: 1380px) {
-  .hero_container {
-  height: 460px;
-}
-  .hero_text_container{
-  left: 140px;
+  max-width: 1660px;
 }
 
 .hero_img_container {
-  top: 122px;
-  right: 100px;
-}
-.hero_img_container img{
-height: 80%;
-}
-.hero_text_container h1{
-font-size: 3rem;
+  border: 1px solid transparent;
+  align-self: end;
 }
 
-.hero_text_container p{
-font-size: 1rem;
-width: 70%;
-}
-}
-
-@media screen and (max-width: 1300px) {
-  .hero_text_container{
-  left: 120px;
-}
-.hero_img_container {
-  right: 100px;
-}
-}
-
-@media screen and (max-width: 1270px) {
-  .hero_text_container{
-  left: 80px;
-}
-.hero_img_container {
-  right: 60px;
-}
-}
-
-@media screen and (max-width: 1160px) {
-  .hero_text_container{
-  left: 50px;
-}
-.hero_img_container {
-  right: 40px;
-}
-}
-
-@media screen and (max-width: 1100px) {
-  .hero_container {
-  height: 400px;
-}
-  .hero_text_container{
-  left: 70px;
-  gap:10px;
-}
-
-.hero_img_container {
-  top: 130px;
-  right: 80px;
-}
-.hero_img_container img{
-height: 68%;
-}
-.hero_text_container h1{
-font-size: 2.5rem;
-width: 75%;
-}
-
-.hero_text_container p{
-font-size: 0.9rem;
-width: 50%;
-}
-}
-
-@media screen and (max-width: 1000px) {
-  .hero_text_container{
-  left: 50px;
-}
-.hero_img_container {
-  right: 15px;
-}
-}
-
-@media screen and (max-width: 900px) {
-  .hero_container {
-    height: 505px;
-    flex-direction: column;
-    gap: 20px;
-}
-  .hero_text_container{
-    position:inherit;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-    width: 100%;
-}
-.hero_img_container {
-  position: inherit;
-  height: 50%;
-}
-
-.hero_img_container img{
-  width: 100%;
+.hero_img_container img {
+  object-fit: cover;
+  width: 600px;
   height: 100%;
 }
 
-.hero_text_container h1{
-  font-size: 2.5rem;
-  width: 80%;
+.hero_text_container {
+  border: 1px solid transparent;
+  position: relative;
+  left: 100px;
 }
 
-.hero_text_container p{
-font-size: 0.9rem;
-width: 70%;
-}
+.hero_text_container h1 {
+  font-size: 3.5rem;
 }
 
-@media screen and (max-width: 900px) {
-  .hero_container {
-    height: 690px;
-}
-
-.hero_img_container {
-  position: inherit;
-  height: 30%;
-}
-}
-
-@media screen and (max-width: 460px) {
-  .hero_container {
-    height: 470px;
-}
-
-.hero_text_container h1{
-  font-size: 1.7rem;
-  width: 90%;
-  align-items: center;
-}
-
-.hero_text_container p{
-font-size: 0.8rem;
-width: 80%;
-}
-
-.hero_img_container {
-  position: inherit;
-  height: 30%;
-}
-
+.hero_text_container p {
+  font-size: 1.5rem;
+  width: 70%;
 }
 </style>
