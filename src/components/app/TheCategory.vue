@@ -3,7 +3,7 @@
 <template>
 <div class="all_container">
     <div class="img_container">
-        <img src="emojis.png" />
+        <img src="/emojis.png" />
     </div>
     <div class="text_container">
         <h1>NOMBRE</h1>

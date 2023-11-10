@@ -2,7 +2,7 @@
 
 <template>
   <div class="intro_container">
-    <img src="bedroom.jpg" alt="">
+    <img src="/bedroom.jpg" alt="">
     <div class="intro_text_container">
       <h1>PORTAFOLIO</h1>
     </div>
