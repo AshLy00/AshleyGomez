@@ -25,7 +25,7 @@
 }
 .intro_text_container{
   position: absolute;
-  top:100px;
+  top:80px;
   left:15%;
   color:var(--color-white);
   width: 70%;
@@ -34,10 +34,33 @@
 }
 
 .intro_text_container h1{
-font-size: 10rem;
+  font-size: 10rem;
 }
 
 .intro_text_container p{
 font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1570px) {
+  .intro_text_container h1{
+  font-size: 8rem;
+}
+.intro_text_container{
+  top:100px;
+  left:15%;
+}
+}
+@media screen and (max-width: 1260px) {
+  .intro_text_container h1{
+  font-size: 6rem;
+}
+.intro_text_container{
+  top:80px;
+  left:15%;
+}
+
+.intro_container{
+    height:400px;
+}
 }
 </style>
