@@ -6,7 +6,7 @@
       <h1>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT</h1>
       <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING</p>
     </div>
-    <div class="hero_img_container"> <img src="Yop.png" /></div>
+    <div class="hero_img_container"> <img src="ash.png" /></div>
   </div>
 </template>
 

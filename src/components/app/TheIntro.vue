@@ -1,8 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="intro_container">
-    <img src="BEDROOM.jpg" alt="">
+  <div class="bedroom.jpg" alt="">
     <div class="intro_text_container">
       <h1>PORTAFOLIO</h1>
       <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING</p>
