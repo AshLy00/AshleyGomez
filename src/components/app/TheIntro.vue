@@ -5,7 +5,6 @@
     <img src="bedroom.jpg" alt="">
     <div class="intro_text_container">
       <h1>PORTAFOLIO</h1>
-      <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING</p>
     </div>
   </div>
 </template>
@@ -13,10 +12,9 @@
 <style scoped>
 .intro_container{
     width:100%;
-    height:500px;
+    height:400px;
     overflow:hidden;
     position: relative;
-    display: inline-block;
     display: flex;
     align-items: center;
 }
@@ -25,42 +23,81 @@
 }
 .intro_text_container{
   position: absolute;
-  top:80px;
-  left:15%;
   color:var(--color-white);
-  width: 70%;
+  width: 100%;
   text-align: center;
-  gap: 20px;
 }
 
-.intro_text_container h1{
-  font-size: 10rem;
+.intro_text_container h1 {
+font-size:1000%;
 }
 
-.intro_text_container p{
-font-size: 1.5rem;
+@media screen and (max-width: 1580px) {
+  .intro_text_container h1 {
+font-size:900%;
+}
+.intro_container{
+    height:300px;
+}
 }
 
-@media screen and (max-width: 1570px) {
-  .intro_text_container h1{
-  font-size: 8rem;
-}
-.intro_text_container{
-  top:100px;
-  left:15%;
+@media screen and (max-width: 1410px) {
+  .intro_text_container h1 {
+font-size:800%;
 }
 }
 @media screen and (max-width: 1260px) {
-  .intro_text_container h1{
-  font-size: 6rem;
+  .intro_text_container h1 {
+font-size:700%;
 }
-.intro_text_container{
-  top:80px;
-  left:15%;
+}
+
+@media screen and (max-width: 1090px) {
+  .intro_text_container h1 {
+font-size:600%;
+}
+}
+
+@media screen and (max-width: 900px) {
+  .intro_text_container h1 {
+font-size:500%;
 }
 
 .intro_container{
-    height:400px;
+    height:200px;
+}
+}
+@media screen and (max-width: 790px) {
+  .intro_text_container h1 {
+font-size:400%;
+}
+}
+@media screen and (max-width: 640px) {
+  .intro_text_container h1 {
+font-size:300%;
+}
+.intro_container{
+    height:150px;
+}
+}
+
+@media screen and (max-width: 460px) {
+  .intro_text_container h1 {
+font-size:200%;
+}
+
+.intro_container{
+    height:100px;
+}
+}
+
+@media screen and (max-width: 310px) {
+  .intro_text_container h1 {
+font-size:150%;
+}
+
+.intro_container{
+    height:80px;
 }
 }
 </style>

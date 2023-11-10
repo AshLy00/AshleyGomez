@@ -12,7 +12,7 @@
 
 <style scoped>
 .hero_container {
-  background-color: grey;
+  background-color: transparent;
   height: 600px;
   display: flex;
   justify-content: center;
