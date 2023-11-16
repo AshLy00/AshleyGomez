@@ -66,8 +66,21 @@
 
 @media screen and (max-width: 740px) {
     .img_container {
-        width: 580px;
-        height: 100px;
+        width: 250px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .text_container h1 {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .img_container {
+        width: 200px;
+        height: 80px;
         display: flex;
         align-items: center;
     }

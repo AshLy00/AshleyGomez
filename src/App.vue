@@ -39,4 +39,19 @@ import TheBanner from "./components/app/TheBanner.vue";
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 740px) {
+  .categories {
+    grid-template-columns: 250px 250px;
+    gap: 15px;
+    margin: 40px 0px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .categories {
+    grid-template-columns: 200px 200px;
+    gap: 15px;
+  }
+}
 </style>
