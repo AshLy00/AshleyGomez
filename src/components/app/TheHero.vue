@@ -13,7 +13,8 @@
     <div class="hero_img_container">
       <img
         src="https://drive.google.com/uc?export=view&id=1UnBSbdjNL3H9ZFDY8AA5gybePzQm5RA9"
-        alt=""/>
+        alt=""
+      />
     </div>
   </div>
 </template>
@@ -195,6 +196,87 @@
 
   .hero_text_container {
     left: 60px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero_container {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    left: 0;
+  }
+
+  .hero_text_container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 50px;
+    left: 2%;
+    row-gap: 10px;
+  }
+  .hero_text_container h1 {
+    font-size: 1.4rem;
+  }
+
+  .hero_text_container p {
+    font-size: 0.6rem;
+    width: 70%;
+  }
+
+  .hero_img_container {
+    align-self: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero_text_container h1 {
+    font-size: 1.2rem;
+  }
+
+  .hero_text_container p {
+    font-size: 0.6rem;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero_text_container h1 {
+    font-size: 1.2rem;
+  }
+
+  .hero_text_container p {
+    font-size: 0.6rem;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero_text_container h1 {
+    font-size: 1.1rem;
+    width: 80%;
+  }
+
+  .hero_text_container {
+    top: 25px;
+  }
+
+  .hero_text_container p {
+    font-size: 0.4rem;
+    width: 60%;
+  }
+  .hero_img_container img {
+    width: 200px;
+  }
+  .hero_container {
+    height: 320px;
   }
 }
 </style>
