@@ -81,7 +81,7 @@
 
   .hero_container {
     height: 450px;
-    right: 10px;
+    right: 25px;
   }
 
   .hero_img_container img {
