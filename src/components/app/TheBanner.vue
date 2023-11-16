@@ -24,6 +24,7 @@
     max-width: 1660px;
     text-align: center;
     align-items: center;
+    display: none;
 }
 
 .banner_text_container h1 {

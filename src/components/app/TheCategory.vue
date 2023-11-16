@@ -89,4 +89,26 @@
         font-size: 0.8rem;
     }
 }
+
+@media screen and (max-width: 460px) {
+    .img_container {
+        width: 160px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .img_container {
+        width: 140px;
+        height: 40px;
+    }
+
+}
+@media screen and (max-width: 350px) {
+    .img_container {
+        width: 120px;
+        height: 40px;
+    }
+
+}
 </style>
