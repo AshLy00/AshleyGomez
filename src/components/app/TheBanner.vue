@@ -24,7 +24,6 @@
     max-width: 1660px;
     text-align: center;
     align-items: center;
-    display: none;
 }
 
 .banner_text_container h1 {
@@ -55,5 +54,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 1550px) {
+    .banner_text_container h1 {
+    font-size: 4.5rem;
+    width: 90%;
+}
+}
+
+@media screen and (max-width: 1390px) {
+    .banner_text_container h1 {
+    font-size: 4.1rem;
+    width: 90%;
+}
+}
+
+@media screen and (max-width: 1275px) {
+    .banner_text_container h1 {
+    font-size: 3.2rem;
+    width: 90%;
+}
+.banner_text_container p {
+    font-size: 1rem;
+    width: 70%;
+}
+}
+
+@media screen and (max-width: 1000px) {
+    .banner_text_container h1 {
+    font-size: 2.8rem;
+    width: 90%;
+}
+.banner_text_container p {
+    font-size: 0.8rem;
+    width: 70%;
+}
 }
 </style>
