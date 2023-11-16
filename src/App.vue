@@ -4,6 +4,7 @@ import TheHero from "./components/app/TheHero.vue";
 import TheIntro from "./components/app/TheIntro.vue";
 import TheCategory from "./components/app/TheCategory.vue";
 import TheBanner from "./components/app/TheBanner.vue";
+import SecondBanner from "./components/app/SecondBanner.vue";
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import TheBanner from "./components/app/TheBanner.vue";
       <TheCategory />
     </div>
     <TheBanner />
+    <SecondBanner />
   </main>
   <footer></footer>
 </template>
