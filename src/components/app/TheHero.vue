@@ -13,8 +13,7 @@
     <div class="hero_img_container">
       <img
         src="https://drive.google.com/uc?export=view&id=1UnBSbdjNL3H9ZFDY8AA5gybePzQm5RA9"
-        alt=""
-      />
+        alt=""/>
     </div>
   </div>
 </template>
@@ -81,6 +80,7 @@
 
   .hero_container {
     height: 450px;
+    right: 10px;
   }
 
   .hero_img_container img {
@@ -99,6 +99,7 @@
 
   .hero_container {
     height: 350px;
+    right: 20px;
   }
 
   .hero_img_container img {
@@ -117,6 +118,7 @@
 
   .hero_container {
     height: 340px;
+    right: 20px;
   }
 
   .hero_img_container img {
@@ -165,6 +167,29 @@
 
   .hero_img_container img {
     width: 250px;
+    right: 20px;
+  }
+
+  .hero_text_container {
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .hero_text_container h1 {
+    font-size: 1.2rem;
+  }
+
+  .hero_text_container p {
+    font-size: 0.5rem;
+  }
+
+  .hero_container {
+    height: 230px;
+  }
+
+  .hero_img_container img {
+    width: 240px;
     right: 20px;
   }
 
