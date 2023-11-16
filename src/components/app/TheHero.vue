@@ -206,7 +206,6 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    align-self: center;
     width: 100%;
     left: 0;
   }
@@ -232,7 +231,7 @@
   }
 
   .hero_img_container {
-    align-self: auto;
+    align-self: center;
   }
 }
 
