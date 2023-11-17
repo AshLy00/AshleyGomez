@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="banner_container">
+  <section class="banner_container">
     <div class="banner_text_container">
       <h1>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT</h1>
       <p>
@@ -16,7 +16,7 @@
         alt=""
       />
     </div>
-  </div>
+  </section>
 </template>
 <style scoped>
 .banner_text_container {

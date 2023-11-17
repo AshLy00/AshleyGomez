@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="hero_container">
+  <section class="hero_container">
     <div class="hero_text_container">
       <h1>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT</h1>
       <p>
@@ -16,7 +16,7 @@
         alt=""
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>
@@ -275,7 +275,7 @@
     width: 200px;
   }
   .hero_container {
-    height: 320px;
+    height: 340px;
   }
 }
 </style>

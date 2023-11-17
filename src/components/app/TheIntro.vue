@@ -1,12 +1,12 @@
 <script setup></script>
 
 <template>
-  <div class="intro_container">
+  <section class="intro_container">
     <img src="https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU" alt="">
     <div class="intro_text_container">
       <h1>PORTAFOLIO</h1>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>

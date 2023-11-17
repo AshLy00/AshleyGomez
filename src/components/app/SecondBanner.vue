@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="banner_container">
+  <section class="banner_container">
     <div class="banner_text_container">
       <h1>FANART</h1>
     </div>
@@ -11,7 +11,7 @@
         alt=""
       />
     </div>
-  </div>
+  </section>
 </template>
 <style scoped>
 .banner_text_container {
@@ -20,7 +20,6 @@
   color: var(--color-white);
   gap: 20px;
   display: flex;
-  flex-direction: column;
   text-shadow: var(--color-black) 1px 0 3px;
   max-width: 1660px;
   text-align: center;
@@ -54,8 +53,7 @@
 
 @media screen and (max-width: 1550px) {
   .banner_text_container h1 {
-    font-size: 4.5rem;
-    width: 90%;
+    font-size: 12rem;
   }
   .banner_img_container {
     height: 400px;
@@ -63,20 +61,16 @@
 }
 
 @media screen and (max-width: 1390px) {
-  .banner_text_container h1 {
-    font-size: 4.1rem;
-    width: 90%;
-  }
   .banner_container {
     height: 400px;
   }
+  .banner_text_container h1 {
+    font-size: 10rem;
+  }
+
 }
 
 @media screen and (max-width: 1275px) {
-  .banner_text_container h1 {
-    font-size: 3.2rem;
-    width: 90%;
-  }
 
   .banner_img_container {
     height: 300px;
@@ -87,10 +81,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .banner_text_container h1 {
-    font-size: 2.8rem;
-    width: 90%;
-  }
 
   .banner_img_container {
     height: 250px;
@@ -101,22 +91,18 @@
 }
 
 @media screen and (max-width: 880px) {
-  .banner_text_container h1 {
-    font-size: 2.2rem;
-    width: 90%;
-  }
   .banner_img_container {
-    height: 220px;
+    height: 211px;
   }
   .banner_container {
     height: 200px;
   }
+  .banner_text_container h1 {
+    font-size: 8rem;
+  }
+  
 }
 @media screen and (max-width: 700px) {
-  .banner_text_container h1 {
-    font-size: 1.8rem;
-    width: 90%;
-  }
   .banner_text_container {
     gap: 10px;
   }
@@ -124,55 +110,53 @@
     height: 200px;
   }
   .banner_container {
-    height: 170px;
+    height: 155px;
+  }
+
+  .banner_text_container h1 {
+    font-size: 5rem;
   }
 }
 
 @media screen and (max-width: 570px) {
-  .banner_text_container h1 {
-    font-size: 1.5rem;
-    width: 90%;
-  }
   .banner_img_container {
-    height: 180px;
+    height: 150px;
   }
 
 }
 @media screen and (max-width: 470px) {
-  .banner_text_container h1 {
-    font-size: 1.2rem;
-    width: 90%;
-  }
   .banner_img_container {
     height: 160px;
   }
   .banner_container {
     height: 160px;
+  }
+  .banner_text_container h1 {
+    font-size: 4rem;
   }
 }
 
 @media screen and (max-width: 390px) {
-  .banner_text_container h1 {
-    font-size: 1rem;
-    width: 90%;
-  }
+
   .banner_img_container {
     height: 140px;
   }
   .banner_container {
     height: 140px;
+  }
+  .banner_text_container h1 {
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 315px) {
-  .banner_text_container h1 {
-    font-size: 0.8rem;
-    width: 90%;
-  }
   .banner_img_container {
     height: 100px;
   }
   .banner_container {
     height: 100px;
+  }
+  .banner_text_container h1 {
+    font-size: 2rem;
   }
 }
 </style>

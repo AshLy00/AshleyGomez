@@ -5,6 +5,7 @@ import TheIntro from "./components/app/TheIntro.vue";
 import TheCategory from "./components/app/TheCategory.vue";
 import TheBanner from "./components/app/TheBanner.vue";
 import SecondBanner from "./components/app/SecondBanner.vue";
+import TheShowcase from "./components/app/TheShowcase.vue"
 </script>
 
 <template>
@@ -12,14 +13,14 @@ import SecondBanner from "./components/app/SecondBanner.vue";
   <main>
     <TheHero />
     <TheIntro />
-    <div class="categories">
+    <section class="categories">
       <TheCategory />
       <TheCategory />
       <TheCategory />
       <TheCategory />
-    </div>
+    </section>
     <TheBanner />
-    <SecondBanner />
+    <TheShowcase />
   </main>
   <footer></footer>
 </template>
