@@ -102,6 +102,7 @@
         width: 140px;
         height: 40px;
     }
+    
 
 }
 @media screen and (max-width: 350px) {

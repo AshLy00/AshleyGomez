@@ -6,6 +6,7 @@ import TheCategory from "./components/app/TheCategory.vue";
 import TheBanner from "./components/app/TheBanner.vue";
 import SecondBanner from "./components/app/SecondBanner.vue";
 import TheShowcase from "./components/app/TheShowcase.vue"
+import TheFooter from "./components/app/TheFooter.vue";
 </script>
 
 <template>
@@ -22,7 +23,9 @@ import TheShowcase from "./components/app/TheShowcase.vue"
     <TheBanner />
     <TheShowcase />
   </main>
-  <footer></footer>
+  <footer>
+    <TheFooter />
+  </footer>
 </template>
 
 <style scoped>
