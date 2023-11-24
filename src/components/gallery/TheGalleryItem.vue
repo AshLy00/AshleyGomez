@@ -55,29 +55,35 @@
 
 @media screen and (max-width: 560px) {
   .gallery_item {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery_item {
     height: 180px;
     width: 180px;
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 430px) {
   .gallery_item {
     height: 150px;
     width: 150px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .gallery_item {
-    height: 120px;
-    width: 120px;
     border-radius: 20px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 370px) {
   .gallery_item {
-    height: 110px;
-    width: 110px;
+    height: 140px;
+    width: 140px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .gallery_item {
+    height: 120px;
+    width: 120px;
   }
 }
 </style>

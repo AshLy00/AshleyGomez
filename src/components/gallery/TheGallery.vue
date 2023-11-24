@@ -50,4 +50,17 @@ import TheBannerGallery from "./TheBannerGallery.vue";
     gap: 20px;
   }
 }
+
+@media screen and (max-width: 560px) {
+  .gallery_grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .gallery_grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+}
 </style>
