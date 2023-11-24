@@ -82,8 +82,15 @@
 }
 @media screen and (max-width: 340px) {
   .gallery_item {
-    height: 120px;
-    width: 120px;
+    height: 130px;
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .gallery_item {
+    height: 115px;
+    width: 115px;
   }
 }
 </style>
