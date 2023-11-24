@@ -3,7 +3,7 @@
 <template>
   <section class="banner_container">
     <div class="banner_text_container">
-      <h1>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT</h1>
+      <h1>¡WELCOME TO MY LITTLE SPACE IN THE UNIVERSE!</h1>
       <p>
         LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR
         SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR SIT AMET
@@ -166,7 +166,6 @@
   .banner_img_container {
     height: 180px;
   }
-
 }
 @media screen and (max-width: 470px) {
   .banner_text_container h1 {
