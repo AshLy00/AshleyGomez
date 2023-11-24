@@ -1,0 +1,10 @@
+    <TheHero />
+    <TheIntro />
+    <section class="categories">
+      <TheCategory />
+      <TheCategory />
+      <TheCategory />
+      <TheCategory />
+    </section>
+    <TheBanner />
+    <TheShowcase />

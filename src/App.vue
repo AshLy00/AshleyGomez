@@ -7,21 +7,13 @@ import TheBanner from "./components/app/TheBanner.vue";
 import SecondBanner from "./components/app/SecondBanner.vue";
 import TheShowcase from "./components/app/TheShowcase.vue"
 import TheFooter from "./components/app/TheFooter.vue";
+import TheGallery from "./components/app/TheGallery.vue";
 </script>
 
 <template>
   <TheHeader />
   <main>
-    <TheHero />
-    <TheIntro />
-    <section class="categories">
-      <TheCategory />
-      <TheCategory />
-      <TheCategory />
-      <TheCategory />
-    </section>
-    <TheBanner />
-    <TheShowcase />
+<TheGallery />
   </main>
     <TheFooter />
 </template>
