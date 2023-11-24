@@ -5,7 +5,7 @@ import TheIntro from "./components/app/TheIntro.vue";
 import TheCategory from "./components/app/TheCategory.vue";
 import TheBanner from "./components/app/TheBanner.vue";
 import SecondBanner from "./components/app/SecondBanner.vue";
-import TheShowcase from "./components/app/TheShowcase.vue"
+import TheShowcase from "./components/app/TheShowcase.vue";
 import TheFooter from "./components/app/TheFooter.vue";
 import TheGallery from "./components/app/TheGallery.vue";
 </script>
@@ -13,9 +13,18 @@ import TheGallery from "./components/app/TheGallery.vue";
 <template>
   <TheHeader />
   <main>
-<TheGallery />
+    <TheHero />
+    <TheIntro />
+    <section class="categories">
+      <TheCategory />
+      <TheCategory />
+      <TheCategory />
+      <TheCategory />
+    </section>
+    <TheBanner />
+    <TheShowcase />
   </main>
-    <TheFooter />
+  <TheFooter />
 </template>
 
 <style scoped>
