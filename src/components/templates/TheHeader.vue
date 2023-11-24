@@ -19,6 +19,10 @@ const router = useRouter();
 button:hover {
   color: var(--color-blue);
   background-color: var(--color-white);
+  cursor: pointer;
+}
+h1:hover {
+  cursor: pointer;
 }
 header {
   width: 100%;

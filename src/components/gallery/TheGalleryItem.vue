@@ -2,16 +2,46 @@
 <template>
   <a class="gallery_item">
     <img
+      class="imagezoom"
       src="https://drive.google.com/uc?export=view&id=1pKPhvwj9zK2DfHTCy5rbUxRcQDnUoh3X"
       alt=""
     />
+    <div class="overlay">
+      <div class="text_hover_gallery">
+        <p>PROJECT NAME</p>
+        <p>DESCRIPTION OF THE PROJECT MORE AND MORE AND MORE XD</p>
+      </div>
+    </div>
   </a>
 </template>
 
 <style scoped>
-.gallery_item img:hover {
-  transform: scale(1.1);
-  filter: blur(1px);
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.overlay .text_hover_gallery {
+  color: var(--color-white);
+  position: absolute;
+  top: 38%;
+  left: 18%;
+  display: flex;
+  flex-direction: column;
+  text-shadow: var(--color-black) 1px 0 3px;
+}
+.text_hover_gallery p {
+  width: 80%;
+}
+.gallery_item:hover .overlay {
+  opacity: 1;
 }
 
 .gallery_item {
@@ -19,9 +49,17 @@
   width: 320px;
   overflow: hidden;
   border-radius: 30px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
 }
 .gallery_item img {
   width: 100%;
+  height: auto;
+  display: block;
+}
+.gallery_item img:hover {
+  transform: scale(1.5);
 }
 
 @media screen and (max-width: 1520px) {
