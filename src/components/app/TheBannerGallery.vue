@@ -11,16 +11,14 @@
       </p>
     </div>
     <div class="banner_img_container">
-      <img
-        src="https://drive.google.com/uc?export=view&id=1pKPhvwj9zK2DfHTCy5rbUxRcQDnUoh3X"
-        alt=""
-      />
+        <img src="https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU" alt="">
     </div>
   </section>
 </template>
 <style scoped>
 .banner_text_container {
   position: absolute;
+  width: 80%;
   z-index: 1;
   color: var(--color-white);
   gap: 20px;
@@ -29,7 +27,6 @@
   text-shadow: var(--color-black) 1px 0 3px;
   max-width: 1660px;
   text-align: start;
-  align-items: center;
 }
 
 .banner_text_container h1 {
@@ -47,7 +44,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 500px;
+  height: 400px;
   overflow: hidden;
 }
 
@@ -56,10 +53,12 @@
 }
 
 .banner_container {
-  height: 500px;
+  height: 400px;
   display: flex;
+
   justify-content: center;
   align-items: center;
+
 }
 
 @media screen and (max-width: 1550px) {
@@ -131,7 +130,7 @@
     height: 220px;
   }
   .banner_container {
-    height: 200px;
+    height: 220px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -150,7 +149,7 @@
     height: 200px;
   }
   .banner_container {
-    height: 170px;
+    height: 200px;
   }
 }
 
@@ -164,6 +163,9 @@
     width: 80%;
   }
   .banner_img_container {
+    height: 180px;
+  }
+  .banner_container {
     height: 180px;
   }
 
