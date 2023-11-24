@@ -20,20 +20,69 @@ footer {
   align-items: center;
   background-color: black;
   color: white;
-  height: 120px;
+  height: 170px;
+  font-size: 1.3rem;
+  justify-content: center;
 }
 .footer_container {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
+.iconos_container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 420px;
+}
 .iconos_container img {
-  width: 100%;
+  width: 150%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 930px) {
+  .iconos_container {
+    width: 380px;
+  }
+  footer {
+    height: 150px;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 530px) {
+  .iconos_container {
+    width: 300px;
+  }
+  footer {
+    height: 120px;
+    font-size: 1rem;
+  }
+  .footer_container {
+    gap: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .iconos_container {
+    width: 250px;
+  }
+  footer {
+    height: 100px;
+    font-size: 0.7rem;
+  }
+  .footer_container {
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .iconos_container {
+    width: 200px;
+  }
+  footer {
+    height: 80px;
+    font-size: 0.6rem;
+  }
 }
 </style>

@@ -11,7 +11,10 @@
       </p>
     </div>
     <div class="banner_img_container">
-        <img src="https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU" alt="">
+      <img
+        src="https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU"
+        alt=""
+      />
     </div>
   </section>
 </template>
@@ -55,10 +58,9 @@
 .banner_container {
   height: 400px;
   display: flex;
-
+  width: 100%;
   justify-content: center;
   align-items: center;
-
 }
 
 @media screen and (max-width: 1550px) {
@@ -168,7 +170,6 @@
   .banner_container {
     height: 180px;
   }
-
 }
 @media screen and (max-width: 470px) {
   .banner_text_container h1 {
