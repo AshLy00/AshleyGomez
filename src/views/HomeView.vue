@@ -1,10 +1,9 @@
 <script setup>
-import TheHero from "./../components/app/TheHero.vue";
-import TheIntro from "./../components/app/TheIntro.vue";
-import TheCategory from "./../components/app/TheCategory.vue";
-import TheBanner from "./../components/app/TheBanner.vue";
-import TheShowcase from "./../components/app/TheShowcase.vue";
-import TheGallery from "./../components/app/TheGallery.vue";
+import TheHero from "./../components/home/TheHero.vue";
+import TheIntro from "./../components/home/TheIntro.vue";
+import TheCategory from "./../components/home/TheCategory.vue";
+import TheBanner from "./../components/home/TheBanner.vue";
+import TheShowcase from "./../components/home/TheShowcase.vue";
 </script>
 <template>
   <TheHero />
