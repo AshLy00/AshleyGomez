@@ -24,16 +24,16 @@ import TheBannerGallery from "./TheBannerGallery.vue";
 <style scoped>
 .filters_buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
-  height: 100px;
   align-items: center;
   justify-content: center;
+  padding: 2rem 0rem;
 }
 .gallery_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
-  margin-top: 20px;
   margin-bottom: 50px;
 }
 
