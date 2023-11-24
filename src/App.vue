@@ -4,6 +4,10 @@ import TheHero from "./components/app/TheHero.vue";
 import TheIntro from "./components/app/TheIntro.vue";
 import TheCategory from "./components/app/TheCategory.vue";
 import TheBanner from "./components/app/TheBanner.vue";
+import SecondBanner from "./components/app/SecondBanner.vue";
+import TheShowcase from "./components/app/TheShowcase.vue";
+import TheFooter from "./components/app/TheFooter.vue";
+import TheGallery from "./components/app/TheGallery.vue";
 </script>
 
 <template>
@@ -11,15 +15,16 @@ import TheBanner from "./components/app/TheBanner.vue";
   <main>
     <TheHero />
     <TheIntro />
-    <div class="categories">
+    <section class="categories">
       <TheCategory />
       <TheCategory />
       <TheCategory />
       <TheCategory />
-    </div>
+    </section>
     <TheBanner />
+    <TheShowcase />
   </main>
-  <footer></footer>
+  <TheFooter />
 </template>
 
 <style scoped>
