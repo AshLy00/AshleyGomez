@@ -23,9 +23,7 @@ import TheFooter from "./components/app/TheFooter.vue";
     <TheBanner />
     <TheShowcase />
   </main>
-  <footer>
     <TheFooter />
-  </footer>
 </template>
 
 <style scoped>
