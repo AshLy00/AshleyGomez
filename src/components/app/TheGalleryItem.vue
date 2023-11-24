@@ -1,6 +1,7 @@
 <script setup></script>
 <template>
     <div class="gallery_item">
+        <p>prueba</p>
         <img src="https://drive.google.com/uc?export=view&id=1Qlyq0mFIL3XzSjw73HmFEgAH87NKuUms" alt="">
     </div>
 </template>
