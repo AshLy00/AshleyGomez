@@ -16,10 +16,14 @@ const router = useRouter();
 </template>
 
 <style scoped>
+button:hover {
+  color: var(--color-blue);
+  background-color: var(--color-white);
+}
 header {
   width: 100%;
   background-color: var(--color-blue);
-  color: white;
+  color: var(--color-white);
   display: flex;
   justify-content: center;
   align-items: center;
