@@ -4,38 +4,25 @@ import TheHero from "./components/app/TheHero.vue";
 import TheIntro from "./components/app/TheIntro.vue";
 import TheCategory from "./components/app/TheCategory.vue";
 import TheBanner from "./components/app/TheBanner.vue";
-import SecondBanner from "./components/app/SecondBanner.vue";
-import TheShowcase from "./components/app/TheShowcase.vue"
-import TheFooter from "./components/app/TheFooter.vue";
-import TheGallery from "./components/app/TheGallery.vue";
 </script>
 
 <template>
   <TheHeader />
   <main>
-<TheGallery />
+    <TheHero />
+    <TheIntro />
+    <div class="categories">
+      <TheCategory />
+      <TheCategory />
+      <TheCategory />
+      <TheCategory />
+    </div>
+    <TheBanner />
   </main>
-    <TheFooter />
+  <footer></footer>
 </template>
 
 <style scoped>
-.categories {
-  display: flex;
-  gap: 50px;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0px;
-}
-
-@media screen and (max-width: 1000px) {
-  .categories {
-    display: grid;
-    grid-template-columns: 300px 300px;
-    gap: 30px;
-    justify-content: center;
-  }
-}
-
 @media screen and (max-width: 740px) {
   .categories {
     grid-template-columns: 250px 250px;
@@ -58,6 +45,7 @@ import TheGallery from "./components/app/TheGallery.vue";
     margin: 30px 0px;
   }
 }
+
 @media screen and (max-width: 460px) {
   .categories {
     grid-template-columns: 150px 150px;
