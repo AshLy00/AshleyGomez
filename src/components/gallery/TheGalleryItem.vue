@@ -1,14 +1,19 @@
 <script setup></script>
 <template>
-  <div class="gallery_item">
+  <a class="gallery_item">
     <img
-      src="https://drive.google.com/uc?export=view&id=1Qlyq0mFIL3XzSjw73HmFEgAH87NKuUms"
+      src="https://drive.google.com/uc?export=view&id=1pKPhvwj9zK2DfHTCy5rbUxRcQDnUoh3X"
       alt=""
     />
-  </div>
+  </a>
 </template>
 
 <style scoped>
+.gallery_item img:hover {
+  transform: scale(1.1);
+  filter: blur(1px);
+}
+
 .gallery_item {
   height: 320px;
   width: 320px;
