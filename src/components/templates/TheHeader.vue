@@ -1,12 +1,15 @@
-<script setup></script>
+<script setup>
+import { useRouter } from "vue-router";
+const router = useRouter();
+</script>
 
 <template>
   <header>
     <div class="header_items">
-      <h1>ASHLEY GÓMEZ</h1>
+      <h1 @click="router.push({ name: 'home' })">ASHLEY GÓMEZ</h1>
       <div class="botones">
-        <button>PROJECTS</button>
-        <button>ABOUT</button>
+        <button @click="router.push({ name: 'gallery' })">PROJECTS</button>
+        <button @click="router.push({ name: 'about' })">ABOUT</button>
       </div>
     </div>
   </header>
