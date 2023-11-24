@@ -1,8 +1,10 @@
 <script setup>
 import TheGalleryItem from './TheGalleryItem.vue';
 import TheFilterButtons from './TheFilterButtons.vue';
+import TheBannerGallery from './TheBannerGallery.vue';
 </script>
 <template>
+    <TheBannerGallery />
     <div class="filters_buttons">
         <TheFilterButtons />
         <TheFilterButtons />
