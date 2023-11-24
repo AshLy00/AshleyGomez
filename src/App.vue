@@ -23,6 +23,7 @@ import TheGallery from "./components/app/TheGallery.vue";
     </section>
     <TheBanner />
     <TheShowcase />
+    <TheGallery />
   </main>
   <TheFooter />
 </template>
