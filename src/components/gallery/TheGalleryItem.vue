@@ -1,15 +1,15 @@
-<script setup></script>
+<script setup>
+const props = defineProps({
+  project: Object,
+});
+</script>
 <template>
   <a class="gallery_item">
-    <img
-      class="imagezoom"
-      src="https://drive.google.com/uc?export=view&id=1pKPhvwj9zK2DfHTCy5rbUxRcQDnUoh3X"
-      alt=""
-    />
+    <img class="imagezoom" :src="project.images_url" alt="" />
     <div class="overlay">
       <div class="text_hover_gallery">
-        <p>PROJECT NAME</p>
-        <p>DESCRIPTION OF THE PROJECT MORE AND MORE AND MORE XD</p>
+        <p>{{ project.title }}</p>
+        <p>{{ project.description }}</p>
       </div>
     </div>
   </a>
@@ -52,10 +52,11 @@
   position: relative;
   text-align: center;
   cursor: pointer;
+  justify-content: center;
+  display: flex;
 }
 .gallery_item img {
-  width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 .gallery_item img:hover {

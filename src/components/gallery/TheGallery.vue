@@ -2,22 +2,47 @@
 import TheGalleryItem from "./TheGalleryItem.vue";
 import TheFilterButtons from "./TheFilterButtons.vue";
 import TheBannerGallery from "./TheBannerGallery.vue";
+import { database } from "../../database";
+import { ref, onMounted, watch } from "vue";
+import { useRoute } from "vue-router";
+
+const show = ref([]);
+const route = useRoute();
+const db = ref(database);
+onMounted(() => {
+  show.value = db.value.filter((e) => {
+    return e.category == route.params.id;
+  });
+  if (route.params.id == "all") {
+    show.value = db.value;
+  }
+});
+
+watch(
+  () => route.params.id,
+  () => {
+    console.log(route.params.id);
+
+    show.value = db.value.filter((e) => {
+      return e.category == route.params.id;
+    });
+
+    if (route.params.id == "all") {
+      show.value = db.value;
+    }
+  }
+);
 </script>
 <template>
   <TheBannerGallery />
   <div class="filters_buttons">
-    <TheFilterButtons />
-    <TheFilterButtons />
-    <TheFilterButtons />
-    <TheFilterButtons />
-    <TheFilterButtons />
+    <TheFilterButtons category="ilustracion" />
+    <TheFilterButtons category="web" />
+    <TheFilterButtons category="animacion" />
+    <TheFilterButtons category="3d" />
   </div>
   <div class="gallery_grid">
-    <TheGalleryItem />
-    <TheGalleryItem />
-    <TheGalleryItem />
-    <TheGalleryItem />
-    <TheGalleryItem />
+    <TheGalleryItem v-for="(p, i) in show" :key="i" :project="p" />
   </div>
 </template>
 

@@ -67,11 +67,9 @@
   .banner_text_container h1 {
     font-size: 10rem;
   }
-
 }
 
 @media screen and (max-width: 1275px) {
-
   .banner_img_container {
     height: 300px;
   }
@@ -81,7 +79,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-
   .banner_img_container {
     height: 250px;
   }
@@ -100,7 +97,6 @@
   .banner_text_container h1 {
     font-size: 8rem;
   }
-  
 }
 @media screen and (max-width: 700px) {
   .banner_text_container {
@@ -122,7 +118,6 @@
   .banner_img_container {
     height: 150px;
   }
-
 }
 @media screen and (max-width: 470px) {
   .banner_img_container {
@@ -137,7 +132,6 @@
 }
 
 @media screen and (max-width: 390px) {
-
   .banner_img_container {
     height: 140px;
   }

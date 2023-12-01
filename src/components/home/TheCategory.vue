@@ -1,115 +1,120 @@
-<script setup></script>
+<script setup>
+const props = defineProps({
+  category: String,
+  image: String,
+});
+</script>
 
 <template>
-    <div class="all_container">
-        <div class="img_container">
-            <img src="https://drive.google.com/uc?export=view&id=1Qlyq0mFIL3XzSjw73HmFEgAH87NKuUms" alt="">
-        </div>
-        <div class="text_container">
-            <h1>NOMBRE</h1>
-        </div>
+  <div class="all_container">
+    <div class="img_container">
+      <img
+        src="https://drive.google.com/uc?export=view&id=1Qlyq0mFIL3XzSjw73HmFEgAH87NKuUms"
+        alt=""
+      />
     </div>
+    <div class="text_container">
+      <h1>{{ category }}</h1>
+    </div>
+  </div>
 </template>
 <style scoped>
 .all_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img_container {
-    width: 320px;
-    border-radius: 30px;
-    overflow: hidden;
+  width: 320px;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
 .img_container img {
-    width: 100%;
+  width: 100%;
 }
 
 .text_container {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--color-white);
-    text-shadow: var(--color-black) 1px 0 3px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+  text-shadow: var(--color-black) 1px 0 3px;
 }
 
 @media screen and (max-width: 1580px) {
-    .img_container {
-        width: 280px;
-    }
+  .img_container {
+    width: 280px;
+  }
 }
 
 @media screen and (max-width: 1400px) {
-    .img_container {
-        width: 220px;
-    }
+  .img_container {
+    width: 220px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
-    .img_container {
-        width: 180px;
-    }
+  .img_container {
+    width: 180px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .img_container {
-        width: 580px;
-        height: 100px;
-        display: flex;
-        align-items: center;
-    }
+  .img_container {
+    width: 580px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 740px) {
-    .img_container {
-        width: 250px;
-        height: 80px;
-        display: flex;
-        align-items: center;
-    }
+  .img_container {
+    width: 250px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
 
-    .text_container h1 {
-        font-size: 0.8rem;
-    }
+  .text_container h1 {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 580px) {
-    .img_container {
-        width: 200px;
-        height: 80px;
-        display: flex;
-        align-items: center;
-    }
+  .img_container {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
 
-    .text_container h1 {
-        font-size: 0.8rem;
-    }
+  .text_container h1 {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 460px) {
-    .img_container {
-        width: 160px;
-        height: 70px;
-    }
+  .img_container {
+    width: 160px;
+    height: 70px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .img_container {
-        width: 140px;
-        height: 40px;
-    }
-    
-
+  .img_container {
+    width: 140px;
+    height: 40px;
+  }
 }
 @media screen and (max-width: 350px) {
-    .img_container {
-        width: 120px;
-        height: 40px;
-    }
-
+  .img_container {
+    width: 120px;
+    height: 40px;
+  }
 }
 </style>

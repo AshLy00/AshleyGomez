@@ -4,15 +4,35 @@ import TheIntro from "./../components/home/TheIntro.vue";
 import TheCategory from "./../components/home/TheCategory.vue";
 import TheBanner from "./../components/home/TheBanner.vue";
 import TheShowcase from "./../components/home/TheShowcase.vue";
+import SecondBanner from "../components/home/SecondBanner.vue";
+import { useRouter } from "vue-router";
+
+const router = useRouter();
 </script>
 <template>
   <TheHero />
   <TheIntro />
   <section class="categories">
-    <TheCategory />
-    <TheCategory />
-    <TheCategory />
-    <TheCategory />
+    <TheCategory
+      @click="
+        () => router.push({ name: 'gallery', params: { id: 'ilustracion' } })
+      "
+      category="ilustracion"
+    />
+    <TheCategory
+      @click="() => router.push({ name: 'gallery', params: { id: 'web' } })"
+      category="web"
+    />
+    <TheCategory
+      @click="
+        () => router.push({ name: 'gallery', params: { id: 'animacion' } })
+      "
+      category="animacion"
+    />
+    <TheCategory
+      @click="() => router.push({ name: 'gallery', params: { id: '3d' } })"
+      category="3d"
+    />
   </section>
   <TheBanner />
   <TheShowcase />
@@ -26,6 +46,7 @@ import TheShowcase from "./../components/home/TheShowcase.vue";
   justify-content: center;
   align-items: center;
   margin: 50px 0px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1000px) {

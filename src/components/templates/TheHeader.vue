@@ -8,7 +8,11 @@ const router = useRouter();
     <div class="header_items">
       <h1 @click="router.push({ name: 'home' })">ASHLEY GÓMEZ</h1>
       <div class="botones">
-        <button @click="router.push({ name: 'gallery' })">PROJECTS</button>
+        <button
+          @click="router.push({ name: 'gallery', params: { id: 'all' } })"
+        >
+          PROJECTS
+        </button>
         <button @click="router.push({ name: 'about' })">ABOUT</button>
       </div>
     </div>
