@@ -16,6 +16,7 @@ import TheShowcase from "./../components/home/TheShowcase.vue";
   </section>
   <TheBanner />
   <TheShowcase />
+  <SecondBanner />
 </template>
 
 <style scoped>
