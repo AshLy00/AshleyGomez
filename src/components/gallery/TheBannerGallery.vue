@@ -12,7 +12,7 @@
     </div>
     <div class="banner_img_container">
       <img
-        src="https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU"
+        src="https://drive.google.com/uc?export=view&id=1qDrPfFgTBCpkrSp1juT4Dmh8Ggxp_-95"
         alt=""
       />
     </div>
