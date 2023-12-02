@@ -8,6 +8,17 @@ import SecondBanner from "../components/home/SecondBanner.vue";
 import { useRouter } from "vue-router";
 
 const router = useRouter();
+
+// Lista de imágenes correspondientes a cada categoría
+const categoryImages = {
+  ilustracion:
+    "https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU",
+  web: "https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU",
+  animacion:
+    "https://drive.google.com/uc?export=view&id=1fjxgouc9AvmVe39al4zaZGgPac7QXL2L",
+  modelado:
+    "https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU",
+};
 </script>
 <template>
   <TheHero />
@@ -18,20 +29,24 @@ const router = useRouter();
         () => router.push({ name: 'gallery', params: { id: 'ilustracion' } })
       "
       category="ilustracion"
+      :image="categoryImages.ilustracion"
     />
     <TheCategory
       @click="() => router.push({ name: 'gallery', params: { id: 'web' } })"
       category="web"
+      :image="categoryImages.web"
     />
     <TheCategory
       @click="
         () => router.push({ name: 'gallery', params: { id: 'animacion' } })
       "
       category="animacion"
+      :image="categoryImages.animacion"
     />
     <TheCategory
       @click="() => router.push({ name: 'gallery', params: { id: '3d' } })"
       category="3d"
+      :image="categoryImages.modelado"
     />
   </section>
   <TheBanner />

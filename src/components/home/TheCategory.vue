@@ -8,10 +8,7 @@ const props = defineProps({
 <template>
   <div class="all_container">
     <div class="img_container">
-      <img
-        src="https://drive.google.com/uc?export=view&id=1Qlyq0mFIL3XzSjw73HmFEgAH87NKuUms"
-        alt=""
-      />
+      <img :src="image" alt="Category Image" />
     </div>
     <div class="text_container">
       <h1>{{ category }}</h1>
