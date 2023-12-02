@@ -4,7 +4,7 @@ const props = defineProps({
 });
 </script>
 <template>
-  <a class="gallery_item">
+  <a :href="project.external_link" class="gallery_item">
     <img class="imagezoom" :src="project.images_url" alt="" />
     <div class="overlay">
       <div class="text_hover_gallery">

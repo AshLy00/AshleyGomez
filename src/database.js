@@ -9,7 +9,8 @@ export const database = [
   },
   {
     title: "JUST A CUTE BEDROOM",
-    external_link: "",
+    external_link:
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid02gZzBueGta8tUSFcJBEKXtMEnDv7umUeWjtJJMZ4PLnCt9Jn4ebDqKwqYrqeLSpPCl&id=61553251695364",
     id: "002",
     description: "",
     images_url:
