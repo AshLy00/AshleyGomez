@@ -28,5 +28,6 @@ const props = defineProps({
   color: var(--color-white);
   font-size: 0.9rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
 </style>

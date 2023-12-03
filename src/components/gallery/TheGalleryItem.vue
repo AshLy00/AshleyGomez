@@ -9,13 +9,22 @@ const props = defineProps({
     <div class="overlay">
       <div class="text_hover_gallery">
         <p>{{ project.title }}</p>
-        <p>{{ project.description }}</p>
+        <div class="line" v-if="project.description"></div>
+        <p class="description">{{ project.description }}</p>
       </div>
     </div>
   </a>
 </template>
 
 <style scoped>
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: grey;
+}
+.description {
+  font-size: 0.7rem;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -24,21 +33,27 @@ const props = defineProps({
   right: 0;
   height: 100%;
   width: 100%;
-  background-color: transparent;
+  background-color: rgba(169, 169, 169, 0.527);
   opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay .text_hover_gallery {
   color: var(--color-white);
-  position: absolute;
-  top: 38%;
-  left: 18%;
+  text-shadow: var(--color-black) 1px 0 5px;
+  margin: 30px;
+  text-align: center;
+  gap: 10px;
   display: flex;
   flex-direction: column;
-  text-shadow: var(--color-black) 1px 0 3px;
+  justify-content: center;
+  cursor: pointer;
 }
 .text_hover_gallery p {
-  width: 80%;
+  width: 100%;
+  white-space: initial;
 }
 .gallery_item:hover .overlay {
   opacity: 1;
@@ -50,7 +65,6 @@ const props = defineProps({
   overflow: hidden;
   border-radius: 30px;
   position: relative;
-  text-align: center;
   cursor: pointer;
   justify-content: center;
   display: flex;

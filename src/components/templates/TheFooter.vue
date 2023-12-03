@@ -2,12 +2,12 @@
 <template>
   <footer>
     <div class="footer_container">
-      <div class="iconos_container">
+      <a href="https://linktr.ee/SpaceBunnyBun" class="iconos_container">
         <img
           src="https://drive.google.com/uc?export=view&id=1tTzNMdsT2j75GQmDsy_66QHWLjzGo29z"
           alt=""
         />
-      </div>
+      </a>
       <div class="derechos"><p>© 2023 - ASHLEY GÓMEZ</p></div>
     </div>
   </footer>

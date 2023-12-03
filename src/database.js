@@ -39,17 +39,18 @@ export const database = [
     title: "THE ASTRONAUT",
     external_link: "",
     id: "005",
-    description: "",
+    description: "UN EXTRAÑO INVITADO ESPACIAL",
     images_url: "",
     category: "ilustracion",
   },
   {
-    title: "DESTACADO",
+    title: "EL SENTIDO DE LA VIDA",
     external_link: "",
     id: "006",
     description: "",
-    images_url: "",
-    category: "ilustracion",
+    images_url:
+      "https://drive.google.com/uc?export=view&id=1UL7qcljPYfEh8f2KqySl67F7qReOvneI",
+    category: "animacion",
   },
   {
     title: "HALLOWEEN PARTY",

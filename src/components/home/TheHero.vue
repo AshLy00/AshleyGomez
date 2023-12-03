@@ -11,7 +11,7 @@
     </div>
     <div class="hero_img_container">
       <img
-        src="https://drive.google.com/uc?export=view&id=1UnBSbdjNL3H9ZFDY8AA5gybePzQm5RA9"
+        src="https://drive.google.com/uc?export=view&id=1v6ie3kY2RaheaAvzpVS1b3PxrlKLuRA7"
         alt=""
       />
     </div>
