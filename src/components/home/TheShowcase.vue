@@ -1,45 +1,44 @@
 <script setup>
-import TheCard from './TheCard.vue';
+import TheCard from "./TheCard.vue";
 </script>
 
 <template>
-    <section class="showcase">
-        <TheCard />
-        <TheCard />
-        <TheCard />
-    </section>
-
+  <section class="showcase">
+    <TheCard />
+    <TheCard />
+    <TheCard />
+  </section>
 </template>
 <style scoped>
-section{
-    width: 60%;
+section {
+  width: 60%;
+  height: 600px;
 }
 
 @media screen and (max-width: 2300px) {
-    section{
+  section {
     width: 70%;
-}
+  }
 }
 
 @media screen and (max-width: 1770px) {
-    section{
+  section {
     width: 80%;
-}
-
+  }
 }
 @media screen and (max-width: 1550px) {
-    section{
+  section {
     width: 80%;
-}
+  }
 }
 @media screen and (max-width: 747px) {
-    section{
+  section {
     width: 75%;
-}
+  }
 }
 @media screen and (max-width: 420px) {
-    section{
+  section {
     width: 80%;
-}
+  }
 }
 </style>

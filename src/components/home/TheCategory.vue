@@ -24,12 +24,16 @@ const props = defineProps({
 
 .img_container {
   width: 320px;
+  height: 320px;
   border-radius: 30px;
   overflow: hidden;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .img_container img {
-  width: 100%;
+  width: 180%;
 }
 
 .text_container {
@@ -41,22 +45,35 @@ const props = defineProps({
   color: var(--color-white);
   text-shadow: var(--color-black) 1px 0 3px;
 }
+.text_container h1 {
+  font-size: 2rem;
+}
 
 @media screen and (max-width: 1580px) {
   .img_container {
     width: 280px;
+    height: 280px;
+  }
+
+  .text_container h1 {
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 1400px) {
   .img_container {
     width: 220px;
+    height: 220px;
   }
 }
 
 @media screen and (max-width: 1100px) {
   .img_container {
     width: 180px;
+    height: 180px;
+  }
+  .text_container h1 {
+    font-size: 1.2rem;
   }
 }
 
@@ -66,6 +83,10 @@ const props = defineProps({
     height: 100px;
     display: flex;
     align-items: center;
+  }
+
+  .text_container h1 {
+    font-size: 1.4rem;
   }
 }
 
@@ -78,7 +99,7 @@ const props = defineProps({
   }
 
   .text_container h1 {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -91,14 +112,21 @@ const props = defineProps({
   }
 
   .text_container h1 {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
 }
 
 @media screen and (max-width: 460px) {
   .img_container {
-    width: 160px;
+    width: 180px;
     height: 70px;
+  }
+  .all_container {
+    width: 180px;
+  }
+
+  .text_container h1 {
+    font-size: 0.9rem;
   }
 }
 

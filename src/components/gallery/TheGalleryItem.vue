@@ -49,7 +49,6 @@ const props = defineProps({
   display: flex;
   flex-direction: column;
   justify-content: center;
-  cursor: pointer;
 }
 .text_hover_gallery p {
   width: 100%;

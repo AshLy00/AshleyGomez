@@ -91,22 +91,22 @@ const categoryImages = {
 @media screen and (max-width: 460px) {
   .categories {
     grid-template-columns: 180px 180px;
-    gap: 15px;
+    gap: 12px;
     margin: 30px 0px;
   }
 }
-@media screen and (max-width: 460px) {
+
+@media screen and (max-width: 430px) {
   .categories {
-    grid-template-columns: 150px 150px;
-    gap: 10px;
-    margin: 20px 0px;
+    grid-template-columns: 170px 170px;
+    gap: 15px;
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
   .categories {
-    grid-template-columns: 120px 120px;
-    gap: 5px;
+    grid-template-columns: 150px 170px;
+    gap: 15px;
   }
 }
 </style>

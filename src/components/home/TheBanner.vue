@@ -164,7 +164,10 @@
     width: 80%;
   }
   .banner_img_container {
-    height: 180px;
+    height: 190px;
+  }
+  .banner_container {
+    height: 156px;
   }
 }
 @media screen and (max-width: 470px) {

@@ -29,7 +29,7 @@
   grid-template-columns: 1fr 1fr;
   text-transform: uppercase;
   gap: 20px;
-  height: 600px;
+  height: 510px;
   justify-content: center;
   align-items: center;
 }

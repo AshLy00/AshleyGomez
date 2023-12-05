@@ -20,15 +20,17 @@
 
 <style scoped>
 .hero_container {
-  height: 600px;
+  height: 550px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
-  max-width: 1660px;
+  max-width: 1360px;
 }
 
 .hero_img_container {
   align-self: end;
+  right: 20px;
 }
 
 .hero_img_container img {
@@ -39,7 +41,10 @@
 
 .hero_text_container {
   position: relative;
-  left: 100px;
+  left: 80px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero_text_container h1 {
@@ -55,36 +60,43 @@
   .hero_text_container h1 {
     font-size: 3rem;
   }
+  .hero_text_container {
+    left: 60px;
+  }
 
   .hero_text_container p {
     font-size: 1.2rem;
   }
 
-  .hero_container {
-    height: 550px;
-  }
-
   .hero_img_container img {
-    width: 520px;
+    width: 480px;
+  }
+  .hero_container {
+    height: 450px;
+    max-width: 1100px;
   }
 }
 
 @media screen and (max-width: 1160px) {
   .hero_text_container h1 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
   }
 
   .hero_text_container p {
-    font-size: 1rem;
-  }
-
-  .hero_container {
-    height: 450px;
-    right: 25px;
+    font-size: 1.2rem;
+    width: 80%;
   }
 
   .hero_img_container img {
-    width: 480px;
+    width: 450px;
+  }
+  .hero_text_container {
+    left: 50px;
+  }
+
+  .hero_container {
+    height: 420px;
+    max-width: 990px;
   }
 }
 
@@ -94,12 +106,12 @@
   }
 
   .hero_text_container p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .hero_container {
     height: 350px;
-    right: 20px;
+    max-width: 800px;
   }
 
   .hero_img_container img {
@@ -117,8 +129,7 @@
   }
 
   .hero_container {
-    height: 340px;
-    right: 20px;
+    height: 320px;
   }
 
   .hero_img_container img {
@@ -126,17 +137,17 @@
   }
 
   .hero_text_container {
-    left: 73px;
+    left: 50px;
   }
 }
 
 @media screen and (max-width: 770px) {
   .hero_text_container h1 {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
 
   .hero_text_container p {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
 
   .hero_container {
@@ -152,13 +163,36 @@
   }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 740px) {
   .hero_text_container h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .hero_text_container p {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .hero_container {
+    height: 280px;
+  }
+
+  .hero_img_container img {
+    width: 280px;
+  }
+
+  .hero_text_container {
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .hero_text_container h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero_text_container p {
+    font-size: 0.6rem;
+    width: 70%;
   }
 
   .hero_container {
@@ -175,13 +209,13 @@
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 640px) {
   .hero_text_container h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .hero_text_container p {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 
   .hero_container {
@@ -198,7 +232,7 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 670px) {
   .hero_container {
     height: 380px;
     display: flex;
@@ -221,60 +255,49 @@
     row-gap: 10px;
   }
   .hero_text_container h1 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .hero_text_container p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     width: 70%;
   }
 
   .hero_img_container {
     align-self: center;
   }
-}
 
-@media screen and (max-width: 450px) {
-  .hero_text_container h1 {
-    font-size: 1.2rem;
-  }
-
-  .hero_text_container p {
-    font-size: 0.6rem;
-    width: 70%;
+  .hero_img_container img {
+    right: -3px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .hero_text_container h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .hero_text_container p {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     width: 70%;
+  }
+  .hero_img_container img {
+    right: -5px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 390px) {
   .hero_text_container h1 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+  }
+
+  .hero_text_container p {
+    font-size: 0.7rem;
     width: 80%;
   }
 
-  .hero_text_container {
-    top: 25px;
-  }
-
-  .hero_text_container p {
-    font-size: 0.4rem;
-    width: 60%;
-  }
   .hero_img_container img {
-    width: 200px;
-  }
-  .hero_container {
-    height: 340px;
+    right: -7px;
   }
 }
 </style>
