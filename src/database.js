@@ -1,7 +1,8 @@
 export const database = [
   {
     title: "EMOJIS",
-    external_link: "",
+    external_link:
+      "https://www.instagram.com/p/C0frv7es0al/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
     id: "001",
     description: "",
     images_url:
@@ -46,7 +47,7 @@ export const database = [
   },
   {
     title: "EL SENTIDO DE LA VIDA",
-    external_link: "",
+    external_link: "https://youtu.be/aHvpfzaYAiA",
     id: "006",
     description: "",
     images_url:
