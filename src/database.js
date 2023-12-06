@@ -51,7 +51,7 @@ export const database = [
     id: "006",
     description: "",
     images_url:
-      "https://drive.google.com/uc?export=view&id=1UL7qcljPYfEh8f2KqySl67F7qReOvneI",
+      "https://drive.google.com/uc?export=view&id=17Ve96KfxpkjS-ioUnhe4ndJG_6HEJWCH",
     category: "animacion",
   },
   {
@@ -203,5 +203,32 @@ export const database = [
     images_url:
       "https://drive.google.com/uc?export=view&id=1GTI3HK_a6689dP2tYC_eFxbmMnY3zRUv",
     category: "web",
+  },
+  {
+    title: "SELF-ESTEEM",
+    external_link: "",
+    id: "023",
+    description: "A SHORT FILM OF A GIRL AND HER DRESS",
+    images_url:
+      "https://drive.google.com/uc?export=view&id=19pwXptoLxgZvnkbn1bwlOSvQU5CeMpoX",
+    category: "animacion",
+  },
+  {
+    title: "BUNNY",
+    external_link: "",
+    id: "024",
+    description: "HE WANTS TO SAY HI!",
+    images_url:
+      "https://drive.google.com/uc?export=view&id=1Kl3H2S2j0Iew41a53kyvTh1Sx2MKO8rG",
+    category: "animacion",
+  },
+  {
+    title: "DADAISMO",
+    external_link: "",
+    id: "025",
+    description: "OLD ART VS DIGITAL COLLAGE",
+    images_url:
+      "https://drive.google.com/uc?export=view&id=1Koh_4hnLpWdXiHrzz6E6aLp-JHtlkWQk",
+    category: "ilustracion",
   },
 ];

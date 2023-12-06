@@ -20,7 +20,7 @@ const props = defineProps({
 .line {
   width: 100%;
   height: 2px;
-  background-color: grey;
+  background-color: var(--color-white);
 }
 .description {
   font-size: 0.7rem;
@@ -130,6 +130,16 @@ const props = defineProps({
     width: 150px;
     border-radius: 20px;
   }
+  .text_hover_gallery {
+    font-size: 0.7rem;
+  }
+
+  .description {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
 }
 @media screen and (max-width: 370px) {
   .gallery_item {
@@ -148,6 +158,9 @@ const props = defineProps({
   .gallery_item {
     height: 115px;
     width: 115px;
+  }
+  .text_hover_gallery {
+    font-size: 0.5rem;
   }
 }
 </style>

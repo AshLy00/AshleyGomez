@@ -74,6 +74,9 @@ watch(
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
+  .filters_buttons {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -86,6 +89,13 @@ watch(
   .gallery_grid {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .filters_buttons {
+    gap: 10px;
+    padding: 1.5rem 0rem;
   }
 }
 </style>
