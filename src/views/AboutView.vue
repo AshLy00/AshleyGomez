@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import BannerInfo from "../components/about/BannerInfo.vue";
+</script>
 
 <template>
-  <section>About</section>
+  <BannerInfo />
 </template>
 
 <style scoped></style>

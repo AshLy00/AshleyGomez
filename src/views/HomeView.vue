@@ -12,8 +12,8 @@ const router = useRouter();
 // Lista de imágenes correspondientes a cada categoría
 const categoryImages = {
   ilustracion:
-    "https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU",
-  web: "https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU",
+    "https://drive.google.com/uc?export=view&id=1zUF9MBkdQ3IOJcQA-oYQEAOLnHWHvsG4",
+  web: "https://drive.google.com/uc?export=view&id=1hR2Kwp3Y9DqrPU1GMrDVUgvlnUcNOCxV",
   animacion:
     "https://drive.google.com/uc?export=view&id=1fjxgouc9AvmVe39al4zaZGgPac7QXL2L",
   modelado:
@@ -62,6 +62,7 @@ const categoryImages = {
   align-items: center;
   margin: 50px 0px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {
