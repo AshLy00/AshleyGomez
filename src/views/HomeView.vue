@@ -11,10 +11,10 @@ const router = useRouter();
 
 // Lista de imágenes correspondientes a cada categoría
 const categoryImages = {
-  ilustracion:
+  illustration:
     "https://drive.google.com/uc?export=view&id=1zUF9MBkdQ3IOJcQA-oYQEAOLnHWHvsG4",
   web: "https://drive.google.com/uc?export=view&id=1hR2Kwp3Y9DqrPU1GMrDVUgvlnUcNOCxV",
-  animacion:
+  animation:
     "https://drive.google.com/uc?export=view&id=1fjxgouc9AvmVe39al4zaZGgPac7QXL2L",
   modelado:
     "https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU",
@@ -26,10 +26,10 @@ const categoryImages = {
   <section class="categories">
     <TheCategory
       @click="
-        () => router.push({ name: 'gallery', params: { id: 'ilustracion' } })
+        () => router.push({ name: 'gallery', params: { id: 'illustration' } })
       "
-      category="ilustracion"
-      :image="categoryImages.ilustracion"
+      category="illustration"
+      :image="categoryImages.illustration"
     />
     <TheCategory
       @click="() => router.push({ name: 'gallery', params: { id: 'web' } })"
@@ -38,10 +38,10 @@ const categoryImages = {
     />
     <TheCategory
       @click="
-        () => router.push({ name: 'gallery', params: { id: 'animacion' } })
+        () => router.push({ name: 'gallery', params: { id: 'animation' } })
       "
-      category="animacion"
-      :image="categoryImages.animacion"
+      category="animation"
+      :image="categoryImages.animation"
     />
     <TheCategory
       @click="() => router.push({ name: 'gallery', params: { id: '3d' } })"

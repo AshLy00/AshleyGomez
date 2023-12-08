@@ -11,9 +11,9 @@ const router = useRouter();
         <button
           @click="router.push({ name: 'gallery', params: { id: 'all' } })"
         >
-          PROJECTS
+          MY PROJECTS
         </button>
-        <button @click="router.push({ name: 'about' })">ABOUT</button>
+        <button @click="router.push({ name: 'about' })">ABOUT ME</button>
       </div>
     </div>
   </header>

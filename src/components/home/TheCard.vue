@@ -29,7 +29,6 @@
   grid-template-columns: 1fr 1fr;
   text-transform: uppercase;
   gap: 20px;
-  height: 510px;
   justify-content: center;
   align-items: center;
 }
@@ -114,7 +113,6 @@
   }
   .card_container {
     gap: 20px;
-    height: 500px;
   }
 }
 
@@ -134,7 +132,6 @@
   }
   .card_container {
     gap: 20px;
-    height: 450px;
   }
 }
 @media screen and (max-width: 930px) {
@@ -153,7 +150,6 @@
   }
   .card_container {
     gap: 20px;
-    height: 350px;
   }
 }
 
@@ -173,7 +169,6 @@
   }
   .card_container {
     gap: 20px;
-    height: 300px;
   }
 }
 
@@ -193,7 +188,6 @@
   }
   .card_container {
     gap: 20px;
-    height: 300px;
   }
 }
 @media screen and (max-width: 686px) {
@@ -212,7 +206,6 @@
   }
   .card_container {
     gap: 20px;
-    height: 280px;
   }
 }
 
@@ -232,7 +225,6 @@
   }
   .card_container {
     gap: 20px;
-    height: 220px;
   }
 }
 
@@ -252,7 +244,6 @@
   }
   .card_container {
     gap: 20px;
-    height: 180px;
   }
 }
 
@@ -272,7 +263,6 @@
   }
   .card_container {
     gap: 20px;
-    height: 180px;
   }
 }
 
@@ -292,7 +282,6 @@
   }
   .card_container {
     gap: 20px;
-    height: 150px;
   }
 }
 
@@ -312,7 +301,6 @@
   }
   .card_container {
     gap: 20px;
-    height: 140px;
   }
 }
 @media screen and (max-width: 330px) {

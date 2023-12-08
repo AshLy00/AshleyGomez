@@ -7,7 +7,7 @@ export const database = [
     description: "",
     images_url:
       "https://drive.google.com/uc?export=view&id=1r2ff4tfi7SQrIoOTmIo4J2dXhsL8jftU",
-    category: "ilustracion",
+    category: "illustration",
   },
   {
     title: "JUST A CUTE BEDROOM",
@@ -25,7 +25,8 @@ export const database = [
     description: "A MINI ZENITSU WITH GOOD VIBES",
     images_url:
       "https://drive.google.com/uc?export=view&id=1KXYon4YVEP8agDrXozci6Ar5dsVfI0QM",
-    category: "animacion",
+    category: "animation",
+    card: "yes",
   },
   {
     title: "CRECIENDO EN FAMILIA",
@@ -34,7 +35,7 @@ export const database = [
     description: "",
     images_url:
       "https://drive.google.com/uc?export=view&id=1MWZrK2xxkgLqsdgW7LqjY-HXwTSe8_xh",
-    category: "ilustracion",
+    category: "illustration",
   },
   {
     title: "THE ASTRONAUT",
@@ -52,7 +53,7 @@ export const database = [
     description: "",
     images_url:
       "https://drive.google.com/uc?export=view&id=17Ve96KfxpkjS-ioUnhe4ndJG_6HEJWCH",
-    category: "animacion",
+    category: "animation",
   },
   {
     title: "HALLOWEEN PARTY",
@@ -61,7 +62,7 @@ export const database = [
     description: "",
     images_url:
       "https://drive.google.com/uc?export=view&id=1c2pmLLbGketVCCJTyghdTJWz8162EtaD",
-    category: "ilustracion",
+    category: "illustration",
   },
   {
     title: "TALES FROM THE GAS STATION",
@@ -71,7 +72,7 @@ export const database = [
     description: "",
     images_url:
       "https://drive.google.com/uc?export=view&id=1HINVpDPrTqnPZu9boHxkpVm3DEvESLbZ",
-    category: "ilustracion",
+    category: "illustration",
   },
   {
     title: "TELETUBI CONCEPT RACETRACK",
@@ -89,7 +90,7 @@ export const database = [
     description: "",
     images_url:
       "https://drive.google.com/uc?export=view&id=1ejpctEiyeIyiEUyP0yW7hdncL9skH8im",
-    category: "ilustracion",
+    category: "illustration",
   },
   {
     title: "BLUEY",
@@ -99,7 +100,7 @@ export const database = [
     description: "",
     images_url:
       "https://drive.google.com/uc?export=view&id=19trlbdDrA8oWcpdw9yf8OoqzBKA70Ykd",
-    category: "ilustracion",
+    category: "illustration",
   },
   {
     title: "ISABELLE",
@@ -108,7 +109,7 @@ export const database = [
     description: "DOOM GUY IS CANELITA'S BFF",
     images_url:
       "https://drive.google.com/uc?export=view&id=13IDVnR5ejLXYaT3l1VFbxtlXLoyGFKgY",
-    category: "ilustracion",
+    category: "illustration",
   },
   {
     title: "HOSHINO AI",
@@ -118,7 +119,7 @@ export const database = [
     description: "",
     images_url:
       "https://drive.google.com/uc?export=view&id=1OXDwawWmKS9BQV9-q0xXmJH1pXS7Px-T",
-    category: "ilustracion",
+    category: "illustration",
   },
   {
     title: "DND",
@@ -137,7 +138,7 @@ export const database = [
     description: "",
     images_url:
       "https://drive.google.com/uc?export=view&id=1V27I4EQmfT33Ylvn5LTZhqDNv8seavYk",
-    category: "ilustracion",
+    category: "illustration",
   },
   {
     title: "DRESSER",
@@ -156,7 +157,7 @@ export const database = [
     description: "",
     images_url:
       "https://drive.google.com/uc?export=view&id=1RsTUJNJFrvXVTX6nVSg6xqi0kpwoa3wS",
-    category: "ilustracion",
+    category: "illustration",
   },
   {
     title: "ACNH MINI COMIC",
@@ -166,7 +167,7 @@ export const database = [
     description: "",
     images_url:
       "https://drive.google.com/uc?export=view&id=16Wk9qIRfzmSA6s9qvScH0mUHuKDUNzEm",
-    category: "ilustracion",
+    category: "illustration",
   },
   {
     title: "ROBOTITO",
@@ -211,7 +212,7 @@ export const database = [
     description: "A SHORT FILM OF A GIRL AND HER DRESS",
     images_url:
       "https://drive.google.com/uc?export=view&id=19pwXptoLxgZvnkbn1bwlOSvQU5CeMpoX",
-    category: "animacion",
+    category: "animation",
   },
   {
     title: "BUNNY",
@@ -220,7 +221,7 @@ export const database = [
     description: "HE WANTS TO SAY HI!",
     images_url:
       "https://drive.google.com/uc?export=view&id=1Kl3H2S2j0Iew41a53kyvTh1Sx2MKO8rG",
-    category: "animacion",
+    category: "animation",
   },
   {
     title: "DADAISMO",
@@ -229,6 +230,25 @@ export const database = [
     description: "OLD ART VS DIGITAL COLLAGE",
     images_url:
       "https://drive.google.com/uc?export=view&id=1Koh_4hnLpWdXiHrzz6E6aLp-JHtlkWQk",
-    category: "ilustracion",
+    category: "illustration",
+  },
+  {
+    title: "CROYDON",
+    external_link:
+      "https://www.figma.com/proto/1QIhKi7RR5GGLA5xQOHsoZ/CROYDON-WEBSITE-IDEA?type=design&node-id=1-5&t=J1Xpv1bBYRcXf7br-0&scaling=scale-down&page-id=0%3A1",
+    id: "026",
+    description: "WEBSITE IDEA FOR CROYDON",
+    images_url:
+      "https://drive.google.com/uc?export=view&id=1KtrvCN278HcSXqe1LFnBFkklZzgkpJah",
+    category: "web",
+  },
+  {
+    title: "THE EYE",
+    external_link: "",
+    id: "027",
+    description: "THEY ARE WATCHING YOU",
+    images_url:
+      "https://drive.google.com/uc?export=view&id=1bffaRaQ9dGrDBb5EiKGb4wTLVKXhR3B2",
+    category: "animation",
   },
 ];

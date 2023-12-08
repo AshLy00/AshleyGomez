@@ -7,7 +7,7 @@
       alt=""
     />
     <div class="intro_text_container">
-      <h1>PORTAFOLIO</h1>
+      <h1>PORTFOLIO</h1>
     </div>
   </section>
 </template>

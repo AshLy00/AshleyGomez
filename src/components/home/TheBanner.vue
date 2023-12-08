@@ -3,16 +3,16 @@
 <template>
   <section class="banner_container">
     <div class="banner_text_container">
-      <h1>¡WELCOME TO MY LITTLE SPACE IN THE UNIVERSE!</h1>
+      <h1>WELCOME TO MY CREATIVE SPACE IN THE UNIVERSE!</h1>
       <p>
-        OFREZCO MIS SERVICIOS CREATIVOS QUE INCLUYEN ILUSTRACION VECTORIAL,
-        MODELADO 3D, DISEÑO WEB Y ANIMACION 2D, TODO IMPREGNADO DE MI ESTILO
-        PERSONAL
+        I OFFER MY CREATIVE SERVICES, WHICH INCLUDE VECTOR ILLUSTRATION, 3D
+        MODELING, WEB DESIGN, AND 2D ANIMATION, ALL IMPREGNATED WITH MY PERSONAL
+        STYLE
       </p>
     </div>
     <div class="banner_img_container">
       <img
-        src="https://drive.google.com/uc?export=view&id=1pKPhvwj9zK2DfHTCy5rbUxRcQDnUoh3X"
+        src="https://drive.google.com/uc?export=view&id=1xou6S3iw-a8_TdchoK5W4kc6nsngJ8KM"
         alt=""
       />
     </div>
@@ -128,10 +128,10 @@
     width: 70%;
   }
   .banner_img_container {
-    height: 220px;
+    height: 250px;
   }
   .banner_container {
-    height: 200px;
+    height: 250px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -150,7 +150,7 @@
     height: 200px;
   }
   .banner_container {
-    height: 170px;
+    height: 200px;
   }
 }
 
@@ -167,7 +167,7 @@
     height: 190px;
   }
   .banner_container {
-    height: 156px;
+    height: 190px;
   }
 }
 @media screen and (max-width: 470px) {

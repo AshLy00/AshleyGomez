@@ -5,9 +5,12 @@
     <div class="banner_text_container">
       <h1>MY PROJECTS</h1>
       <p>
-        TEST TEST DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR
-        SIT AMET CONSECTETUR ADIPISCING ELIT LOREM IPSUM DOLOR SIT AMET
-        CONSECTETUR ADIPISCING
+        I AM PASSIONATE ABOUT GRAPHIC DESIGN AND ILLUSTRATION. I BELIEVE IN THE
+        IMPORTANCE OF TRANSFORMING IDEAS INTO REALITY TO MAKE THE WORLD A BETTER
+        PLACE, WHERE EVERYONE CAN SEE THEIR DREAMS COME TO TRUE. I'M HERE TO
+        TURN YOUR IDEAS INTO REALITY. <br />
+        <br />LET'S DISCOVER THE CREATIVE WORLD TOGETHER AND MAKE YOUR IDEAS
+        TAKE SHAPE! :D
       </p>
     </div>
     <div class="banner_img_container">
@@ -30,6 +33,7 @@
   text-shadow: var(--color-black) 1px 0 3px;
   max-width: 1660px;
   text-align: start;
+  text-transform: uppercase;
 }
 
 .banner_text_container h1 {

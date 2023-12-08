@@ -1,7 +1,6 @@
 <script setup>
 import TheGalleryItem from "./TheGalleryItem.vue";
 import TheFilterButtons from "./TheFilterButtons.vue";
-import TheBannerGallery from "./TheBannerGallery.vue";
 import { database } from "../../database";
 import { ref, onMounted, watch } from "vue";
 import { useRoute } from "vue-router";
@@ -34,11 +33,11 @@ watch(
 );
 </script>
 <template>
-  <TheBannerGallery />
   <div class="filters_buttons">
-    <TheFilterButtons category="ilustracion" />
+    <TheFilterButtons category="all" />
+    <TheFilterButtons category="illustration" />
     <TheFilterButtons category="web" />
-    <TheFilterButtons category="animacion" />
+    <TheFilterButtons category="animation" />
     <TheFilterButtons category="3d" />
   </div>
   <div class="gallery_grid">

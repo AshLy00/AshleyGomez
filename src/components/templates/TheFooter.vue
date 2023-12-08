@@ -4,11 +4,13 @@
     <div class="footer_container">
       <a href="https://linktr.ee/SpaceBunnyBun" class="iconos_container">
         <img
-          src="https://drive.google.com/uc?export=view&id=1tTzNMdsT2j75GQmDsy_66QHWLjzGo29z"
-          alt=""
+          src="https://drive.google.com/uc?export=view&id=1naLAJVTL0GRsQy9xZK387FjLvzZ0oaH-"
         />
       </a>
-      <div class="derechos"><p>© 2023 - ASHLEY GÓMEZ</p></div>
+      <div class="derechos">
+        <p class="text">ALL MY SOCIAL MEDIA</p>
+        <p>© 2023 - ASHLEY GÓMEZ</p>
+      </div>
     </div>
   </footer>
 </template>
@@ -21,7 +23,7 @@ footer {
   background-color: black;
   color: white;
   height: 170px;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   justify-content: center;
 }
 .footer_container {
@@ -39,7 +41,17 @@ footer {
   width: 420px;
 }
 .iconos_container img {
-  width: 150%;
+  width: 50%;
+}
+.text {
+  font-size: 0.8rem;
+}
+.derechos {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 @media screen and (max-width: 930px) {
@@ -48,7 +60,7 @@ footer {
   }
   footer {
     height: 150px;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 530px) {
@@ -57,10 +69,23 @@ footer {
   }
   footer {
     height: 120px;
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
   .footer_container {
     gap: 12px;
+  }
+  .iconos_container img {
+    width: 40%;
+  }
+  .text {
+    font-size: 0.7rem;
+  }
+  .derechos {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -69,7 +94,7 @@ footer {
   }
   footer {
     height: 100px;
-    font-size: 0.7rem;
+    font-size: 0.4rem;
   }
   .footer_container {
     gap: 12px;
@@ -82,7 +107,7 @@ footer {
   }
   footer {
     height: 80px;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 }
 </style>

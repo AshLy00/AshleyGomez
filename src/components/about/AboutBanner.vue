@@ -2,12 +2,10 @@
 
 <template>
   <section class="banner_container">
-    <div class="banner_text_container">
-      <h1>FANART</h1>
-    </div>
+    <div class="banner_text_container"></div>
     <div class="banner_img_container">
       <img
-        src="https://drive.google.com/uc?export=view&id=1VWUpByLtxT6KhlOesP1yDVGXorboOrXm"
+        src="https://drive.google.com/uc?export=view&id=1iOCvE6nghCS8ais4KSrpWln2WswNNmla"
         alt=""
       />
     </div>
@@ -24,11 +22,6 @@
   max-width: 1660px;
   text-align: center;
   align-items: center;
-}
-
-.banner_text_container h1 {
-  font-size: 14rem;
-  width: 90%;
 }
 
 .banner_img_container {
@@ -52,9 +45,6 @@
 }
 
 @media screen and (max-width: 1550px) {
-  .banner_text_container h1 {
-    font-size: 12rem;
-  }
   .banner_img_container {
     height: 500px;
   }
@@ -63,9 +53,6 @@
 @media screen and (max-width: 1390px) {
   .banner_container {
     height: 500px;
-  }
-  .banner_text_container h1 {
-    font-size: 10rem;
   }
 }
 
@@ -94,9 +81,6 @@
   .banner_container {
     height: 210px;
   }
-  .banner_text_container h1 {
-    font-size: 8rem;
-  }
 }
 @media screen and (max-width: 700px) {
   .banner_text_container {
@@ -107,10 +91,6 @@
   }
   .banner_container {
     height: 200px;
-  }
-
-  .banner_text_container h1 {
-    font-size: 5rem;
   }
 }
 
@@ -126,9 +106,6 @@
   .banner_container {
     height: 160px;
   }
-  .banner_text_container h1 {
-    font-size: 4rem;
-  }
 }
 
 @media screen and (max-width: 390px) {
@@ -138,9 +115,6 @@
   .banner_container {
     height: 140px;
   }
-  .banner_text_container h1 {
-    font-size: 3rem;
-  }
 }
 @media screen and (max-width: 315px) {
   .banner_img_container {
@@ -148,9 +122,6 @@
   }
   .banner_container {
     height: 100px;
-  }
-  .banner_text_container h1 {
-    font-size: 2rem;
   }
 }
 </style>
