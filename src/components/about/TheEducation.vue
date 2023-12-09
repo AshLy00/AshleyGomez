@@ -81,4 +81,155 @@
   grid-row: 1 / 3;
   justify-self: center;
 }
+
+@media screen and (max-width: 1460px) {
+  .grid_education {
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 0.3fr 0.1fr 0.3fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .grid_education {
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 0.4fr 0.1fr 0.4fr;
+    grid-template-rows: 1fr 1fr;
+    width: 70%;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .grid_education {
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 0.5fr 0.1fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+    width: 75%;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 915px) {
+  .grid_education {
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 0.6fr 0.1fr 0.6fr;
+    grid-template-rows: 1fr 1fr;
+    width: 75%;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .grid_education {
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 0.6fr 0.1fr 0.6fr;
+    grid-template-rows: 1fr 1fr;
+    width: 75%;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: center;
+  }
+  .grid_education h1 {
+    font-size: 2rem;
+  }
+  .grid_education p {
+    color: black;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .grid_education {
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 0.6fr 0.1fr 0.6fr;
+    grid-template-rows: 1fr 1fr;
+    width: 85%;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: center;
+  }
+  .grid_education h1 {
+    font-size: 2rem;
+  }
+  .grid_education p {
+    color: black;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .grid_education {
+    display: flex;
+    width: 70%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .line {
+    display: none;
+  }
+  .grid_education h1 {
+    font-size: 1.8rem;
+  }
+  .grid_education p {
+    color: black;
+    font-size: 0.8rem;
+  }
+  .education,
+  .soft,
+  .languaje {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .grid_education {
+    display: flex;
+    width: 70%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .line {
+    display: none;
+  }
+  .grid_education h1 {
+    font-size: 1.7rem;
+  }
+  .grid_education p {
+    color: black;
+    font-size: 0.7rem;
+  }
+  .education,
+  .soft,
+  .languaje {
+    text-align: left;
+  }
+}
 </style>
