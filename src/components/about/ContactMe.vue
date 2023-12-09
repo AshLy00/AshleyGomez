@@ -16,7 +16,7 @@
       method="POST"
     >
       <label for="fullName">Full Name</label>
-      <input type="text" id="name" name="fullName" required />
+      <input type="text" id="name" name="name" required />
 
       <label for="email">E-mail</label>
       <input type="email" id="email" name="email" required />
@@ -25,7 +25,12 @@
       <textarea id="message" name="message" rows="4" required></textarea>
 
       <button type="submit">Submit</button>
-      <input type="hidden" name="_next" value="" />
+      <input
+        type="hidden"
+        name="_next"
+        value="https://ashley-gomez.vercel.app/about"
+      />
+      <input type="hidden" name="_captcha" value="false" />
     </form>
   </div>
 </template>
