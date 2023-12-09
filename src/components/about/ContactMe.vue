@@ -16,7 +16,7 @@
       method="POST"
     >
       <label for="fullName">Full Name</label>
-      <input type="text" id="fullName" name="fullName" required />
+      <input type="text" id="name" name="fullName" required />
 
       <label for="email">E-mail</label>
       <input type="email" id="email" name="email" required />
@@ -26,7 +26,6 @@
 
       <button type="submit">Submit</button>
       <input type="hidden" name="_next" value="" />
-      <input type="hidden" name="_captcha" value="false" />
     </form>
   </div>
 </template>
