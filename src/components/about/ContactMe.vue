@@ -1,46 +1,98 @@
 <script setup></script>
 
 <template>
-  <div class="contact_wrapper">
-    <div class="contact_left">
-      <h1>contact</h1>
-      <img
-        src="https://drive.google.com/uc?export=view&id=1v6ie3kY2RaheaAvzpVS1b3PxrlKLuRA7"
-        alt=""
-      />
+  <div class="all_container">
+    <div class="contact_wrapper">
+      <div class="contact_left">
+        <h1>contact</h1>
+        <img
+          class="image"
+          src="https://drive.google.com/uc?export=view&id=1v6ie3kY2RaheaAvzpVS1b3PxrlKLuRA7"
+          alt=""
+        />
+      </div>
+
+      <form
+        class="contact_container"
+        action="https://formsubmit.co/spacebunnybun00@gmail.com"
+        method="POST"
+      >
+        <label for="fullName">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+        <input type="hidden" name="_next" value="" />
+        <input
+          type="hidden"
+          name="_subject"
+          value="New Message From Your Page!"
+        />
+        <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_autoresponse"
+          value="Hello! I Recibe your message and i will answer you soon!"
+        />
+        <img
+          class="image2"
+          src="https://drive.google.com/uc?export=view&id=1v6ie3kY2RaheaAvzpVS1b3PxrlKLuRA7"
+          alt=""
+        />
+      </form>
     </div>
-
-    <form
-      class="contact_container"
-      action="https://formsubmit.co/spacebunnybun00@gmail.com"
-      method="POST"
-    >
-      <label for="fullName">Full Name</label>
-      <input type="text" id="name" name="name" required />
-
-      <label for="email">E-mail</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-
-      <button type="submit">Submit</button>
-      <input
-        type="hidden"
-        name="_next"
-        value="https://ashley-gomez.vercel.app/about"
-      />
-      <input type="hidden" name="_captcha" value="false" />
-    </form>
   </div>
 </template>
 
 <style scoped>
+.image2 {
+  display: none;
+}
+button {
+  color: var(--color-pink);
+  background-color: white;
+  cursor: pointer;
+}
 .contact_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
+  background-color: var(--color-pink);
+  color: white;
+  width: 70%;
+}
+input,
+textarea {
+  text-transform: uppercase;
+  border-radius: 15px;
+  border-width: 0;
+  width: 500px;
+  height: 10px;
+  padding: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+:focus {
+  outline: 4px solid var(--color-darkpink);
+  border-radius: 15px;
+}
+
+.all_container {
+  background-color: var(--color-pink);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  align-items: end;
 }
 
 .contact_left h1 {
@@ -54,12 +106,64 @@
   flex-direction: column;
   gap: 20px;
 }
+.contact_container button {
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 button {
   text-transform: uppercase;
 }
 
 img {
-  width: 40%;
+  width: 50%;
+}
+.contact_left {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .image2 {
+    display: flex;
+    width: 80%;
+  }
+  .image {
+    display: none;
+  }
+  .all_container {
+    display: flex;
+    height: 900px;
+    width: 100%;
+    justify-content: center;
+  }
+  .contact_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .contact_container {
+    width: 80%;
+  }
+
+  input,
+  textarea {
+    width: 400px;
+    height: 10px;
+    padding: 10px;
+  }
+  label {
+    font-size: 0.8rem;
+  }
+
+  textarea {
+    height: 100px;
+  }
+  .contact_left h1 {
+    font-size: 4rem;
+  }
 }
 </style>

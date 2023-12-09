@@ -78,7 +78,7 @@
   align-items: center;
   gap: 20px;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .img_container {
   width: 150px;
