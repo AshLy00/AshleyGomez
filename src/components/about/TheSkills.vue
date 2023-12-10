@@ -172,12 +172,19 @@
     overflow: hidden;
   }
   .text2 {
-    gap: 40px;
+    gap: 20px;
     margin-left: 0px;
+  }
+  .text1 {
+    gap: 10px;
   }
   .software_skills_container {
     gap: 20px;
     margin-top: 0px;
+  }
+  .all_images {
+    column-gap: 15px;
+    width: 95%;
   }
 }
 </style>

@@ -46,6 +46,7 @@
 .grid_education p {
   color: black;
   font-size: 0.8rem;
+  text-align: justify;
 }
 .languaje,
 .soft,
@@ -210,8 +211,8 @@
   .grid_education {
     display: flex;
     width: 70%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
@@ -220,11 +221,11 @@
     display: none;
   }
   .grid_education h1 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
   .grid_education p {
     color: black;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .education,
   .soft,

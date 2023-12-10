@@ -83,11 +83,23 @@ watch(
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
+  .filters_buttons {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .filters_buttons {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 370px) {
   .gallery_grid {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+  }
+  .filters_buttons {
+    width: 100%;
   }
 }
 

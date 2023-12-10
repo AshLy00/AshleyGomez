@@ -20,7 +20,7 @@ const props = defineProps({
 .single_filter {
   background-color: var(--color-pink);
   height: 50px;
-  width: 250px;
+  width: 210px;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -35,7 +35,7 @@ const props = defineProps({
 @media screen and (max-width: 1220px) {
   .single_filter {
     height: 50px;
-    width: 220px;
+    width: 180px;
     border-radius: 30px;
     font-size: 0.9rem;
   }
@@ -43,7 +43,7 @@ const props = defineProps({
 @media screen and (max-width: 1080px) {
   .single_filter {
     height: 45px;
-    width: 180px;
+    width: 140px;
     border-radius: 30px;
     font-size: 0.8rem;
   }
@@ -59,24 +59,42 @@ const props = defineProps({
 @media screen and (max-width: 730px) {
   .single_filter {
     height: 50px;
-    width: 180px;
+    width: 134px;
     border-radius: 30px;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 530px) {
   .single_filter {
     height: 50px;
-    width: 150px;
+    width: 120px;
     border-radius: 30px;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .single_filter {
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .single_filter {
+    height: 40px;
+    width: 90px;
+    border-radius: 30px;
+    font-size: 0.6rem;
+  }
+}
+
 @media screen and (max-width: 370px) {
   .single_filter {
     height: 40px;
-    width: 130px;
+    width: 90px;
     border-radius: 30px;
     font-size: 0.6rem;
   }

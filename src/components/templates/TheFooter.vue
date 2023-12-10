@@ -22,7 +22,7 @@ footer {
   align-items: center;
   background-color: black;
   color: white;
-  height: 170px;
+  height: 190px;
   font-size: 0.8rem;
   justify-content: center;
 }
@@ -56,7 +56,7 @@ footer {
 
 @media screen and (max-width: 930px) {
   .iconos_container {
-    width: 380px;
+    width: 390px;
   }
   footer {
     height: 150px;
@@ -68,7 +68,7 @@ footer {
     width: 300px;
   }
   footer {
-    height: 120px;
+    height: 140px;
     font-size: 0.5rem;
   }
   .footer_container {
@@ -93,7 +93,7 @@ footer {
     width: 250px;
   }
   footer {
-    height: 100px;
+    height: 120px;
     font-size: 0.4rem;
   }
   .footer_container {
@@ -106,7 +106,7 @@ footer {
     width: 200px;
   }
   footer {
-    height: 80px;
+    height: 100px;
     font-size: 0.5rem;
   }
 }

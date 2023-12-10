@@ -47,7 +47,7 @@
 }
 .name .back {
   color: white;
-  -webkit-text-stroke: 30px white;
+  -webkit-text-stroke: 20px white;
   position: absolute;
   top: 5px;
 }
@@ -215,7 +215,7 @@
 
 @media screen and (max-width: 330px) {
   .about_info {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
     margin-top: 30px;
   }
 }

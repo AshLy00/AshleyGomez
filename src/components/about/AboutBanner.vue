@@ -5,28 +5,17 @@
     <div class="banner_text_container"></div>
     <div class="banner_img_container">
       <img
-        src="https://drive.google.com/uc?export=view&id=1iOCvE6nghCS8ais4KSrpWln2WswNNmla"
+        src="https://drive.google.com/uc?export=view&id=1eaWilkwljEjz48oIhh5nbcxmLkqbhgRe"
         alt=""
       />
     </div>
   </section>
 </template>
 <style scoped>
-.banner_text_container {
-  position: absolute;
-  z-index: 1;
-  color: var(--color-white);
-  gap: 20px;
-  display: flex;
-  text-shadow: var(--color-black) 1px 0 3px;
-  max-width: 1660px;
-  text-align: center;
-  align-items: center;
-}
-
 .banner_img_container {
   display: flex;
   justify-content: center;
+  align-items: center;
   align-items: center;
   width: 100%;
   height: 500px;
@@ -42,6 +31,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 @media screen and (max-width: 1550px) {

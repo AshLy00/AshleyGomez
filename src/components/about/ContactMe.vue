@@ -125,7 +125,31 @@ img {
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 1700px) {
+  img {
+    width: 60%;
+  }
+}
 
+@media screen and (max-width: 1600px) {
+  .contact_wrapper {
+    gap: 50px;
+    width: 75%;
+  }
+  img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .contact_wrapper {
+    gap: 30px;
+    width: 70%;
+  }
+  img {
+    width: 70%;
+  }
+}
 @media screen and (max-width: 800px) {
   .image2 {
     display: flex;
@@ -147,6 +171,7 @@ img {
   }
   .contact_container {
     width: 80%;
+    justify-content: center;
   }
 
   input,
@@ -164,6 +189,70 @@ img {
   }
   .contact_left h1 {
     font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .image2 {
+    display: flex;
+    width: 80%;
+  }
+  .image {
+    display: none;
+  }
+  .all_container {
+    display: flex;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+  }
+  .contact_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .contact_container {
+    width: 80%;
+    justify-content: center;
+  }
+
+  input,
+  textarea {
+    width: 230px;
+    height: 10px;
+    padding: 10px;
+  }
+  label {
+    font-size: 0.7rem;
+  }
+
+  textarea {
+    height: 100px;
+  }
+  .contact_left h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contact_left h1 {
+    font-size: 2rem;
+  }
+  input,
+  textarea {
+    width: 170px;
+    padding: 10px;
+  }
+  textarea {
+    height: 30px;
+  }
+  .contact_container {
+    width: 90%;
+  }
+  .all_container {
+    height: 600px;
+  }
+  label {
+    font-size: 0.6rem;
   }
 }
 </style>

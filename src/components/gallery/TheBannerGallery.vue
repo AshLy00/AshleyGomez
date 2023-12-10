@@ -98,10 +98,10 @@
   }
 
   .banner_img_container {
-    height: 300px;
+    height: 330px;
   }
   .banner_container {
-    height: 300px;
+    height: 330px;
   }
 }
 
@@ -116,10 +116,10 @@
   }
 
   .banner_img_container {
-    height: 250px;
+    height: 300px;
   }
   .banner_container {
-    height: 250px;
+    height: 300px;
   }
 }
 
@@ -133,10 +133,10 @@
     width: 70%;
   }
   .banner_img_container {
-    height: 220px;
+    height: 300px;
   }
   .banner_container {
-    height: 220px;
+    height: 300px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -152,10 +152,10 @@
     gap: 10px;
   }
   .banner_img_container {
-    height: 200px;
+    height: 280px;
   }
   .banner_container {
-    height: 200px;
+    height: 280px;
   }
 }
 
@@ -169,10 +169,10 @@
     width: 80%;
   }
   .banner_img_container {
-    height: 180px;
+    height: 230px;
   }
   .banner_container {
-    height: 180px;
+    height: 230px;
   }
 }
 @media screen and (max-width: 470px) {
@@ -186,10 +186,10 @@
   }
 
   .banner_img_container {
-    height: 160px;
+    height: 180px;
   }
   .banner_container {
-    height: 160px;
+    height: 180px;
   }
 }
 
@@ -203,10 +203,10 @@
     width: 80%;
   }
   .banner_img_container {
-    height: 140px;
+    height: 160px;
   }
   .banner_container {
-    height: 140px;
+    height: 160px;
   }
 }
 @media screen and (max-width: 315px) {
@@ -219,10 +219,10 @@
     width: 80%;
   }
   .banner_img_container {
-    height: 100px;
+    height: 120px;
   }
   .banner_container {
-    height: 100px;
+    height: 120px;
   }
 }
 </style>
