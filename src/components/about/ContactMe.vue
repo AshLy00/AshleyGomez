@@ -27,18 +27,8 @@
         <textarea id="message" name="message" rows="4" required></textarea>
 
         <button type="submit">Submit</button>
-        <input type="hidden" name="_next" value="" />
-        <input
-          type="hidden"
-          name="_subject"
-          value="New Message From Your Page!"
-        />
+        <input type="hidden" name="_next" value="false" />
         <input type="hidden" name="_captcha" value="false" />
-        <input
-          type="hidden"
-          name="_autoresponse"
-          value="Hello! I Recibe your message and i will answer you soon!"
-        />
         <img
           class="image2"
           src="https://drive.google.com/uc?export=view&id=1v6ie3kY2RaheaAvzpVS1b3PxrlKLuRA7"
