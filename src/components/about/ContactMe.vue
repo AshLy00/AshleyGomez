@@ -32,7 +32,7 @@
           name="_next"
           value="https://ashley-gomez.vercel.app/about"
         />
-        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_captcha" value="" />
         <img
           class="image2"
           src="https://drive.google.com/uc?export=view&id=1v6ie3kY2RaheaAvzpVS1b3PxrlKLuRA7"
