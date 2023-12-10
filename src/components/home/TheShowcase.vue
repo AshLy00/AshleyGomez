@@ -1,10 +1,20 @@
 <script setup>
 import TheCard from "./TheCard.vue";
+import SecondCard from "./SecondCard.vue";
 </script>
 
 <template>
   <section class="showcase">
-    <TheCard />
+    <TheCard
+      imageSrc="https://drive.google.com/uc?export=view&id=1V27I4EQmfT33Ylvn5LTZhqDNv8seavYk"
+      title="MIMOS"
+      description="THE BEST OF MIMOS WITH A LITTLE OF MY SPARKLE"
+    />
+    <SecondCard
+      imageSrc="https://drive.google.com/uc?export=view&id=1KtrvCN278HcSXqe1LFnBFkklZzgkpJah"
+      title="CROYDON"
+      description="WEBSITE IDEA FOR CROYDON"
+    />
   </section>
 </template>
 <style scoped>

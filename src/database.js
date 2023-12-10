@@ -135,7 +135,7 @@ export const database = [
     external_link:
       "https://www.facebook.com/permalink.php?story_fbid=pfbid02gZzBueGta8tUSFcJBEKXtMEnDv7umUeWjtJJMZ4PLnCt9Jn4ebDqKwqYrqeLSpPCl&id=61553251695364",
     id: "015",
-    description: "",
+    description: "THE BEST OF MIMOS WITH A LITTLE OF MY SPARKLE",
     images_url:
       "https://drive.google.com/uc?export=view&id=1V27I4EQmfT33Ylvn5LTZhqDNv8seavYk",
     category: "illustration",

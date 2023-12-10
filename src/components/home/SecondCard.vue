@@ -29,14 +29,15 @@ defineProps(["imageSrc", "title", "description"]);
   gap: 20px;
   justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  flex-direction: row-reverse;
   width: 100%;
+  justify-content: space-between;
 }
 .text {
   display: flex;
-  text-align: end;
+  text-align: start;
   flex-direction: column;
-  align-items: end;
+  align-items: start;
   gap: 10px;
 }
 
