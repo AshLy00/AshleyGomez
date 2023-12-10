@@ -25,8 +25,7 @@
 }
 
 .card_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   text-transform: uppercase;
   gap: 20px;
   justify-content: center;
@@ -48,7 +47,7 @@
 
 .text p {
   font-size: 1.5rem;
-  width: 90%;
+  width: 60%;
 }
 
 .img_container {
@@ -69,7 +68,7 @@
 
   .text p {
     font-size: 1.5rem;
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -81,7 +80,7 @@
 
   .text p {
     font-size: 1.2rem;
-    width: 100%;
+    width: 80%;
   }
 
   .img_container {
@@ -100,11 +99,11 @@
 @media screen and (max-width: 1275px) {
   .text h1 {
     font-size: 3rem;
-    width: 90%;
+    width: 80%;
   }
   .text p {
     font-size: 1rem;
-    width: 100%;
+    width: 70%;
   }
 
   .img_container {
@@ -119,11 +118,11 @@
 @media screen and (max-width: 1070px) {
   .text h1 {
     font-size: 2.5rem;
-    width: 90%;
+    width: 80%;
   }
   .text p {
     font-size: 0.8rem;
-    width: 90%;
+    width: 70%;
   }
 
   .img_container {
@@ -137,11 +136,11 @@
 @media screen and (max-width: 930px) {
   .text h1 {
     font-size: 2.1rem;
-    width: 90%;
+    width: 70%;
   }
   .text p {
     font-size: 0.7rem;
-    width: 90%;
+    width: 70%;
   }
 
   .img_container {
@@ -156,11 +155,11 @@
 @media screen and (max-width: 820px) {
   .text h1 {
     font-size: 1.7rem;
-    width: 90%;
+    width: 70%;
   }
   .text p {
     font-size: 0.7rem;
-    width: 100%;
+    width: 70%;
   }
 
   .img_container {
@@ -175,11 +174,11 @@
 @media screen and (max-width: 747px) {
   .text h1 {
     font-size: 1.5rem;
-    width: 90%;
+    width: 70%;
   }
   .text p {
     font-size: 0.6rem;
-    width: 100%;
+    width: 80%;
   }
 
   .img_container {
@@ -193,11 +192,11 @@
 @media screen and (max-width: 686px) {
   .text h1 {
     font-size: 1.5rem;
-    width: 90%;
+    width: 70%;
   }
   .text p {
     font-size: 0.5rem;
-    width: 100%;
+    width: 80%;
   }
 
   .img_container {
@@ -216,7 +215,7 @@
   }
   .text p {
     font-size: 0.4rem;
-    width: 100%;
+    width: 70%;
   }
 
   .img_container {
@@ -231,11 +230,11 @@
 @media screen and (max-width: 507px) {
   .text h1 {
     font-size: 1rem;
-    width: 90%;
+    width: 70%;
   }
   .text p {
     font-size: 0.4rem;
-    width: 110%;
+    width: 80%;
   }
 
   .img_container {
@@ -250,11 +249,11 @@
 @media screen and (max-width: 440px) {
   .text h1 {
     font-size: 1rem;
-    width: 90%;
+    width: 70%;
   }
   .text p {
     font-size: 0.4rem;
-    width: 110%;
+    width: 90%;
   }
 
   .img_container {
@@ -273,7 +272,7 @@
   }
   .text p {
     font-size: 0.4rem;
-    width: 120%;
+    width: 90%;
   }
 
   .img_container {

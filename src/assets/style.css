@@ -3,7 +3,9 @@
   padding: 0px;
   position: relative;
 }
-
+html {
+  min-width: 330px; 
+}
 img {
   display: block;
 }
