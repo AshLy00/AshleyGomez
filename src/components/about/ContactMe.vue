@@ -27,7 +27,11 @@
         <textarea id="message" name="message" rows="4" required></textarea>
 
         <button type="submit">Submit</button>
-        <input type="hidden" name="_next" value="" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://ashley-gomez.vercel.app/about"
+        />
         <input type="hidden" name="_captcha" value="false" />
         <img
           class="image2"
