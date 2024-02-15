@@ -3,7 +3,7 @@
 <template>
   <section class="intro_container">
     <img
-      src="https://drive.google.com/uc?export=view&id=1qDrPfFgTBCpkrSp1juT4Dmh8Ggxp_-95"
+      src="https://tinypic.host/images/2024/02/15/3D-CUTE-BEDROOM-ASHLEY-3_1---copia-1-1.jpeg"
       alt=""
     />
     <div class="intro_text_container">
