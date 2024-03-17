@@ -14,7 +14,7 @@
     </div>
     <div class="banner_img_container">
       <img
-        src="https://tinypic.host/images/2024/02/15/3D-CUTE-BEDROOM-ASHLEY-3_1---copia-1-1.jpeg"
+        src="https://firebasestorage.googleapis.com/v0/b/ashley-portafolio.appspot.com/o/002.jpg?alt=media&token=347bba15-7759-4c41-ac2a-f63992db3d70"
         alt=""
       />
     </div>

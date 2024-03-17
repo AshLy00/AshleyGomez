@@ -12,7 +12,7 @@
     </div>
     <div class="banner_img_container">
       <img
-        src="https://tinypic.host/images/2024/03/17/Untitled4-1-1-1.jpeg"
+        src="https://firebasestorage.googleapis.com/v0/b/ashley-portafolio.appspot.com/o/banner_bluey.jpg?alt=media&token=55aa784d-a842-4b03-a940-489a941e571a"
         alt=""
       />
     </div>

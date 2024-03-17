@@ -7,7 +7,7 @@
     </div>
     <div class="banner_img_container">
       <img
-        src="https://tinypic.host/images/2024/03/17/Untitled2_20230221215720-1-1-1.png"
+        src="https://firebasestorage.googleapis.com/v0/b/ashley-portafolio.appspot.com/o/banner_fanart.png?alt=media&token=f5741447-6739-4378-86b4-8a329f3987f0"
         alt=""
       />
     </div>

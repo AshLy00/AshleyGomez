@@ -10,7 +10,10 @@
       </p>
     </div>
     <div class="hero_img_container">
-      <img src="https://tinypic.host/images/2024/03/17/ash-1.png" alt="" />
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/ashley-portafolio.appspot.com/o/ash_icon.png?alt=media&token=1eb3b8b5-d889-41d4-ab73-a8aeb8615e2d"
+        alt=""
+      />
     </div>
   </section>
 </template>

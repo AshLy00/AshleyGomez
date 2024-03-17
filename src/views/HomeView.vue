@@ -12,11 +12,12 @@ const router = useRouter();
 // Lista de imágenes correspondientes a cada categoría
 const categoryImages = {
   illustration:
-    "https://drive.google.com/uc?export=view&id=1zUF9MBkdQ3IOJcQA-oYQEAOLnHWHvsG4",
-  web: "https://tinypic.host/images/2024/03/17/Captur222a.png",
-  animation: "https://tinypic.host/images/2024/03/17/Zenitsu.gif",
+    "https://firebasestorage.googleapis.com/v0/b/ashley-portafolio.appspot.com/o/ilustraci%C3%B3n_icon.png?alt=media&token=72e63085-7899-46fa-bfd9-869efb1c52ce",
+  web: "https://firebasestorage.googleapis.com/v0/b/ashley-portafolio.appspot.com/o/026.PNG?alt=media&token=cafa8efd-631e-4c2f-9d5b-df7ba40f3166",
+  animation:
+    "https://firebasestorage.googleapis.com/v0/b/ashley-portafolio.appspot.com/o/003.gif?alt=media&token=2906932f-b482-435f-a4e5-ce92afcf4d9c",
   modelado:
-    "https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU",
+    "https://firebasestorage.googleapis.com/v0/b/ashley-portafolio.appspot.com/o/002.jpg?alt=media&token=347bba15-7759-4c41-ac2a-f63992db3d70",
 };
 </script>
 <template>

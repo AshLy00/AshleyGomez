@@ -3,7 +3,9 @@
   <footer>
     <div class="footer_container">
       <a href="https://linktr.ee/SpaceBunnyBun" class="iconos_container">
-        <img src="https://tinypic.host/images/2024/03/17/3333-1.png" />
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/ashley-portafolio.appspot.com/o/Linktree_logo.png?alt=media&token=de34b18d-ca50-4a96-bc2b-af91751a4a66"
+        />
       </a>
       <div class="derechos">
         <p class="text">ALL MY SOCIAL MEDIA</p>
