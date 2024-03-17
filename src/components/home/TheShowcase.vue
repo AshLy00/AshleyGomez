@@ -6,12 +6,12 @@ import SecondCard from "./SecondCard.vue";
 <template>
   <section class="showcase">
     <TheCard
-      imageSrc="https://drive.google.com/uc?export=view&id=1V27I4EQmfT33Ylvn5LTZhqDNv8seavYk"
+      imageSrc="https://tinypic.host/images/2024/03/17/406472923_122111667968108389_2621784756347966090_n-1.jpeg"
       title="MIMOS"
       description="THE BEST OF MIMOS WITH A LITTLE OF MY SPARKLE"
     />
     <SecondCard
-      imageSrc="https://drive.google.com/uc?export=view&id=1KtrvCN278HcSXqe1LFnBFkklZzgkpJah"
+      imageSrc="https://tinypic.host/images/2024/03/17/Captur222a.png"
       title="CROYDON"
       description="WEBSITE IDEA FOR CROYDON"
     />

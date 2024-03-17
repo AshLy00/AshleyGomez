@@ -15,7 +15,7 @@ export const database = [
     id: "002",
     description: "",
     images_url:
-      "https://drive.google.com/uc?export=view&id=1qDrPfFgTBCpkrSp1juT4Dmh8Ggxp_-95",
+      "https://tinypic.host/images/2024/02/15/3D-CUTE-BEDROOM-ASHLEY-3_1---copia-1-1.jpeg",
     category: "3d",
   },
   {
@@ -23,8 +23,7 @@ export const database = [
     external_link: "",
     id: "003",
     description: "A MINI ZENITSU WITH GOOD VIBES",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1KXYon4YVEP8agDrXozci6Ar5dsVfI0QM",
+    images_url: "https://tinypic.host/images/2024/03/17/Zenitsu.gif",
     category: "animation",
     card: "yes",
   },
@@ -33,8 +32,7 @@ export const database = [
     external_link: "",
     id: "004",
     description: "",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1MWZrK2xxkgLqsdgW7LqjY-HXwTSe8_xh",
+    images_url: "https://tinypic.host/images/2024/03/17/MINI-COMIC-1.png",
     category: "illustration",
   },
   {
@@ -60,8 +58,7 @@ export const database = [
     external_link: "",
     id: "007",
     description: "",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1c2pmLLbGketVCCJTyghdTJWz8162EtaD",
+    images_url: "https://tinypic.host/images/2024/03/17/GFGGG-1.png",
     category: "illustration",
   },
   {
@@ -70,8 +67,7 @@ export const database = [
       "https://www.instagram.com/p/Co_KhGvLeTX/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
     id: "008",
     description: "",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1HINVpDPrTqnPZu9boHxkpVm3DEvESLbZ",
+    images_url: "https://tinypic.host/images/2024/03/17/FG-F-1.png",
     category: "illustration",
   },
   {
@@ -79,8 +75,7 @@ export const database = [
     external_link: "",
     id: "009",
     description: "",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1Dy4AMPp6c0qo76y2iWeYDKp6TM1ZJKYV",
+    images_url: "https://tinypic.host/images/2024/03/17/TRBNU-1.png",
     category: "3d",
   },
   {
@@ -88,8 +83,7 @@ export const database = [
     external_link: "",
     id: "010",
     description: "",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1ejpctEiyeIyiEUyP0yW7hdncL9skH8im",
+    images_url: "https://tinypic.host/images/2024/03/17/FFFB-MRI-1.png",
     category: "illustration",
   },
   {
@@ -98,8 +92,7 @@ export const database = [
       "https://www.instagram.com/p/Cz9gFLeLawf/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
     id: "011",
     description: "",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=19trlbdDrA8oWcpdw9yf8OoqzBKA70Ykd",
+    images_url: "https://tinypic.host/images/2024/03/17/NUYD-1.png",
     category: "illustration",
   },
   {
@@ -107,8 +100,7 @@ export const database = [
     external_link: "",
     id: "012",
     description: "DOOM GUY IS CANELITA'S BFF",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=13IDVnR5ejLXYaT3l1VFbxtlXLoyGFKgY",
+    images_url: "https://tinypic.host/images/2024/03/17/fffff-1.png",
     category: "illustration",
   },
   {
@@ -126,8 +118,7 @@ export const database = [
     external_link: "https://dn-d-teal.vercel.app/",
     id: "014",
     description: "",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1vQI9ILOqtDk-QJCfAJ-9U4kDGp85uKer",
+    images_url: "https://tinypic.host/images/2024/03/17/Mask-group-1.png",
     category: "web",
   },
   {
@@ -137,7 +128,7 @@ export const database = [
     id: "015",
     description: "THE BEST OF MIMOS WITH A LITTLE OF MY SPARKLE",
     images_url:
-      "https://drive.google.com/uc?export=view&id=1V27I4EQmfT33Ylvn5LTZhqDNv8seavYk",
+      "https://tinypic.host/images/2024/03/17/406472923_122111667968108389_2621784756347966090_n-1.jpeg",
     category: "illustration",
   },
   {
@@ -174,8 +165,7 @@ export const database = [
     external_link: "",
     id: "019",
     description: "",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1qEwrNG1cJm7F9hVDXo0sR4HGQbXh9rJO",
+    images_url: "https://tinypic.host/images/2024/03/17/ROBOTITO-ANIMACION.gif",
     category: "3d",
   },
   {
@@ -183,8 +173,7 @@ export const database = [
     external_link: "",
     id: "020",
     description: "",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=16dh1_EgxrrRCNBVuAsJHsmbV130kno38",
+    images_url: "https://tinypic.host/images/2024/03/17/BRAZO_ROBOT.gif",
     category: "3d",
   },
   {
@@ -192,8 +181,7 @@ export const database = [
     external_link: "https://nombre-menu.vercel.app/",
     id: "021",
     description: "",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1NqUK21GgkN38X5bXqen5pTsTXyLVmNJV",
+    images_url: "https://tinypic.host/images/2024/03/17/FFBMENU-1.png",
     category: "web",
   },
   {
@@ -219,8 +207,7 @@ export const database = [
     external_link: "",
     id: "024",
     description: "HE WANTS TO SAY HI!",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1Kl3H2S2j0Iew41a53kyvTh1Sx2MKO8rG",
+    images_url: "https://tinypic.host/images/2024/03/17/fff4.gif",
     category: "animation",
   },
   {
@@ -238,8 +225,7 @@ export const database = [
       "https://www.figma.com/proto/1QIhKi7RR5GGLA5xQOHsoZ/CROYDON-WEBSITE-IDEA?type=design&node-id=1-5&t=J1Xpv1bBYRcXf7br-0&scaling=scale-down&page-id=0%3A1",
     id: "026",
     description: "WEBSITE IDEA FOR CROYDON",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1KtrvCN278HcSXqe1LFnBFkklZzgkpJah",
+    images_url: "https://tinypic.host/images/2024/03/17/Captur222a.png",
     category: "web",
   },
   {
@@ -247,8 +233,15 @@ export const database = [
     external_link: "",
     id: "027",
     description: "THEY ARE WATCHING YOU",
-    images_url:
-      "https://drive.google.com/uc?export=view&id=1bffaRaQ9dGrDBb5EiKGb4wTLVKXhR3B2",
+    images_url: "https://tinypic.host/images/2024/03/17/MINI-ANIMATION-1.gif",
+    category: "animation",
+  },
+  {
+    title: "the confession",
+    external_link: "",
+    id: "027",
+    description: "The Moon Is Beautiful, Isn't It?",
+    images_url: "https://tinypic.host/images/2024/03/17/FTD-RB-1.png",
     category: "animation",
   },
 ];

@@ -2,9 +2,10 @@
   margin: 0px;
   padding: 0px;
   position: relative;
+  text-transform: uppercase;
 }
 html {
-  min-width: 330px; 
+  min-width: 330px;
 }
 img {
   display: block;
@@ -21,8 +22,9 @@ h1 {
   font-size: 2rem;
 }
 
-p ,form{
-  font-family: 'Aoboshi One', serif;
+p,
+form {
+  font-family: "Aoboshi One", serif;
 }
 
 button {

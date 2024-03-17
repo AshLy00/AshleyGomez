@@ -13,9 +13,8 @@ const router = useRouter();
 const categoryImages = {
   illustration:
     "https://drive.google.com/uc?export=view&id=1zUF9MBkdQ3IOJcQA-oYQEAOLnHWHvsG4",
-  web: "https://drive.google.com/uc?export=view&id=1hR2Kwp3Y9DqrPU1GMrDVUgvlnUcNOCxV",
-  animation:
-    "https://drive.google.com/uc?export=view&id=1fjxgouc9AvmVe39al4zaZGgPac7QXL2L",
+  web: "https://tinypic.host/images/2024/03/17/Captur222a.png",
+  animation: "https://tinypic.host/images/2024/03/17/Zenitsu.gif",
   modelado:
     "https://drive.google.com/uc?export=view&id=1h9T1hF51zncrVvB6sdUy_yVNh_jDjwoU",
 };

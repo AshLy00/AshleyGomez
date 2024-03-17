@@ -7,7 +7,7 @@
     </div>
     <div class="banner_img_container">
       <img
-        src="https://drive.google.com/uc?export=view&id=1VWUpByLtxT6KhlOesP1yDVGXorboOrXm"
+        src="https://tinypic.host/images/2024/03/17/Untitled2_20230221215720-1-1-1.png"
         alt=""
       />
     </div>

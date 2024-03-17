@@ -12,7 +12,7 @@
     </div>
     <div class="banner_img_container">
       <img
-        src="https://drive.google.com/uc?export=view&id=1xou6S3iw-a8_TdchoK5W4kc6nsngJ8KM"
+        src="https://tinypic.host/images/2024/03/17/Untitled4-1-1-1.jpeg"
         alt=""
       />
     </div>

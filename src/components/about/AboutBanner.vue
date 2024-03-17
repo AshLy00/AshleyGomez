@@ -4,10 +4,7 @@
   <section class="banner_container">
     <div class="banner_text_container"></div>
     <div class="banner_img_container">
-      <img
-        src="https://drive.google.com/uc?export=view&id=1eaWilkwljEjz48oIhh5nbcxmLkqbhgRe"
-        alt=""
-      />
+      <img src="https://tinypic.host/images/2024/03/17/Untitled-2.gif" alt="" />
     </div>
   </section>
 </template>

@@ -10,10 +10,7 @@
       </p>
     </div>
     <div class="hero_img_container">
-      <img
-        src="https://drive.google.com/uc?export=view&id=1v6ie3kY2RaheaAvzpVS1b3PxrlKLuRA7"
-        alt=""
-      />
+      <img src="https://tinypic.host/images/2024/03/17/ash-1.png" alt="" />
     </div>
   </section>
 </template>

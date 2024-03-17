@@ -3,9 +3,7 @@
   <footer>
     <div class="footer_container">
       <a href="https://linktr.ee/SpaceBunnyBun" class="iconos_container">
-        <img
-          src="https://drive.google.com/uc?export=view&id=1naLAJVTL0GRsQy9xZK387FjLvzZ0oaH-"
-        />
+        <img src="https://tinypic.host/images/2024/03/17/3333-1.png" />
       </a>
       <div class="derechos">
         <p class="text">ALL MY SOCIAL MEDIA</p>

@@ -4,12 +4,12 @@
   <div class="hero_about">
     <img
       class="img_1"
-      src="https://drive.google.com/uc?export=view&id=1xndZsuZB7W2NaGhN4qrDsAh4D_bpcNMK"
+      src="https://tinypic.host/images/2024/03/17/U4ntitled-1-01.png"
       alt=""
     />
     <img
       class="img_2"
-      src="https://drive.google.com/uc?export=view&id=1YkTJ8F3BycnXimg30IN6FkhtAvCExR54"
+      src="https://tinypic.host/images/2024/03/17/banner-about-01-1.png"
       alt=""
     />
   </div>

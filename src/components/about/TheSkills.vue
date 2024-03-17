@@ -13,7 +13,7 @@
 
       <div class="img_container">
         <img
-          src="https://drive.google.com/uc?export=view&id=1Z5G54Ey5do00BNybb1KtbySmhL2Diny3"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/2101px-Adobe_After_Effects_CC_icon.svg.png"
           alt=""
         />
       </div>
@@ -30,15 +30,12 @@
         <p>PREMIER PRO</p>
       </div>
       <div class="img_container">
-        <img
-          src="https://drive.google.com/uc?export=view&id=1oEI-TPsjho5kXfGHh4pnP9BHO9rW4ega"
-          alt=""
-        />
+        <img src="https://tinypic.host/images/2024/03/17/uy.png" alt="" />
       </div>
 
       <div class="img_container">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+          src="https://seeklogo.com/images/V/visual-studio-code-logo-449D71944F-seeklogo.com.png"
           alt=""
         />
       </div>

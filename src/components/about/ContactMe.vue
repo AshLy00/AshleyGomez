@@ -7,7 +7,7 @@
         <h1>contact</h1>
         <img
           class="image"
-          src="https://drive.google.com/uc?export=view&id=1v6ie3kY2RaheaAvzpVS1b3PxrlKLuRA7"
+          src="https://tinypic.host/images/2024/03/17/ash-1.png"
           alt=""
         />
       </div>
@@ -29,7 +29,7 @@
         <button type="submit">Submit</button>
         <img
           class="image2"
-          src="https://drive.google.com/uc?export=view&id=1v6ie3kY2RaheaAvzpVS1b3PxrlKLuRA7"
+          src="https://tinypic.host/images/2024/03/17/ash-1.png"
           alt=""
         />
       </form>
